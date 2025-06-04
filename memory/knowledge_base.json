@@ -1,0 +1,922 @@
+{
+  "concepts": {},
+  "patterns": {},
+  "solutions": {},
+  "last_updated": "2025-06-04T03:26:45.510238",
+  "test_templates": {
+    "templates": {
+      "code_completion": {
+        "python": {
+          "description": "Default code_completion test for python",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_completion test for beginners",
+              "prompt": "Create a simple python program that demonstrates code_completion."
+            },
+            "2": {
+              "description": "Basic code_completion test with some challenges",
+              "prompt": "Create a python program that implements code_completion with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_completion test with multiple components",
+              "prompt": "Create a python program that demonstrates code_completion with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_completion test with complex logic",
+              "prompt": "Create a complex python program that implements code_completion with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_completion test with system design",
+              "prompt": "Design and implement a comprehensive python system that demonstrates expert-level code_completion."
+            }
+          }
+        },
+        "javascript": {
+          "description": "Default code_completion test for javascript",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_completion test for beginners",
+              "prompt": "Create a simple javascript program that demonstrates code_completion."
+            },
+            "2": {
+              "description": "Basic code_completion test with some challenges",
+              "prompt": "Create a javascript program that implements code_completion with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_completion test with multiple components",
+              "prompt": "Create a javascript program that demonstrates code_completion with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_completion test with complex logic",
+              "prompt": "Create a complex javascript program that implements code_completion with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_completion test with system design",
+              "prompt": "Design and implement a comprehensive javascript system that demonstrates expert-level code_completion."
+            }
+          }
+        },
+        "typescript": {
+          "description": "Default code_completion test for typescript",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_completion test for beginners",
+              "prompt": "Create a simple typescript program that demonstrates code_completion."
+            },
+            "2": {
+              "description": "Basic code_completion test with some challenges",
+              "prompt": "Create a typescript program that implements code_completion with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_completion test with multiple components",
+              "prompt": "Create a typescript program that demonstrates code_completion with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_completion test with complex logic",
+              "prompt": "Create a complex typescript program that implements code_completion with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_completion test with system design",
+              "prompt": "Design and implement a comprehensive typescript system that demonstrates expert-level code_completion."
+            }
+          }
+        },
+        "bash": {
+          "description": "Default code_completion test for bash",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_completion test for beginners",
+              "prompt": "Create a simple bash program that demonstrates code_completion."
+            },
+            "2": {
+              "description": "Basic code_completion test with some challenges",
+              "prompt": "Create a bash program that implements code_completion with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_completion test with multiple components",
+              "prompt": "Create a bash program that demonstrates code_completion with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_completion test with complex logic",
+              "prompt": "Create a complex bash program that implements code_completion with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_completion test with system design",
+              "prompt": "Design and implement a comprehensive bash system that demonstrates expert-level code_completion."
+            }
+          }
+        },
+        "html": {
+          "description": "Default code_completion test for html",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_completion test for beginners",
+              "prompt": "Create a simple html program that demonstrates code_completion."
+            },
+            "2": {
+              "description": "Basic code_completion test with some challenges",
+              "prompt": "Create a html program that implements code_completion with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_completion test with multiple components",
+              "prompt": "Create a html program that demonstrates code_completion with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_completion test with complex logic",
+              "prompt": "Create a complex html program that implements code_completion with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_completion test with system design",
+              "prompt": "Design and implement a comprehensive html system that demonstrates expert-level code_completion."
+            }
+          }
+        },
+        "css": {
+          "description": "Default code_completion test for css",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_completion test for beginners",
+              "prompt": "Create a simple css program that demonstrates code_completion."
+            },
+            "2": {
+              "description": "Basic code_completion test with some challenges",
+              "prompt": "Create a css program that implements code_completion with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_completion test with multiple components",
+              "prompt": "Create a css program that demonstrates code_completion with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_completion test with complex logic",
+              "prompt": "Create a complex css program that implements code_completion with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_completion test with system design",
+              "prompt": "Design and implement a comprehensive css system that demonstrates expert-level code_completion."
+            }
+          }
+        }
+      },
+      "bug_fixing": {
+        "python": {
+          "description": "Default bug_fixing test for python",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple bug_fixing test for beginners",
+              "prompt": "Create a simple python program that demonstrates bug_fixing."
+            },
+            "2": {
+              "description": "Basic bug_fixing test with some challenges",
+              "prompt": "Create a python program that implements bug_fixing with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate bug_fixing test with multiple components",
+              "prompt": "Create a python program that demonstrates bug_fixing with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced bug_fixing test with complex logic",
+              "prompt": "Create a complex python program that implements bug_fixing with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level bug_fixing test with system design",
+              "prompt": "Design and implement a comprehensive python system that demonstrates expert-level bug_fixing."
+            }
+          }
+        },
+        "javascript": {
+          "description": "Default bug_fixing test for javascript",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple bug_fixing test for beginners",
+              "prompt": "Create a simple javascript program that demonstrates bug_fixing."
+            },
+            "2": {
+              "description": "Basic bug_fixing test with some challenges",
+              "prompt": "Create a javascript program that implements bug_fixing with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate bug_fixing test with multiple components",
+              "prompt": "Create a javascript program that demonstrates bug_fixing with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced bug_fixing test with complex logic",
+              "prompt": "Create a complex javascript program that implements bug_fixing with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level bug_fixing test with system design",
+              "prompt": "Design and implement a comprehensive javascript system that demonstrates expert-level bug_fixing."
+            }
+          }
+        },
+        "typescript": {
+          "description": "Default bug_fixing test for typescript",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple bug_fixing test for beginners",
+              "prompt": "Create a simple typescript program that demonstrates bug_fixing."
+            },
+            "2": {
+              "description": "Basic bug_fixing test with some challenges",
+              "prompt": "Create a typescript program that implements bug_fixing with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate bug_fixing test with multiple components",
+              "prompt": "Create a typescript program that demonstrates bug_fixing with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced bug_fixing test with complex logic",
+              "prompt": "Create a complex typescript program that implements bug_fixing with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level bug_fixing test with system design",
+              "prompt": "Design and implement a comprehensive typescript system that demonstrates expert-level bug_fixing."
+            }
+          }
+        },
+        "bash": {
+          "description": "Default bug_fixing test for bash",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple bug_fixing test for beginners",
+              "prompt": "Create a simple bash program that demonstrates bug_fixing."
+            },
+            "2": {
+              "description": "Basic bug_fixing test with some challenges",
+              "prompt": "Create a bash program that implements bug_fixing with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate bug_fixing test with multiple components",
+              "prompt": "Create a bash program that demonstrates bug_fixing with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced bug_fixing test with complex logic",
+              "prompt": "Create a complex bash program that implements bug_fixing with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level bug_fixing test with system design",
+              "prompt": "Design and implement a comprehensive bash system that demonstrates expert-level bug_fixing."
+            }
+          }
+        },
+        "html": {
+          "description": "Default bug_fixing test for html",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple bug_fixing test for beginners",
+              "prompt": "Create a simple html program that demonstrates bug_fixing."
+            },
+            "2": {
+              "description": "Basic bug_fixing test with some challenges",
+              "prompt": "Create a html program that implements bug_fixing with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate bug_fixing test with multiple components",
+              "prompt": "Create a html program that demonstrates bug_fixing with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced bug_fixing test with complex logic",
+              "prompt": "Create a complex html program that implements bug_fixing with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level bug_fixing test with system design",
+              "prompt": "Design and implement a comprehensive html system that demonstrates expert-level bug_fixing."
+            }
+          }
+        },
+        "css": {
+          "description": "Default bug_fixing test for css",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple bug_fixing test for beginners",
+              "prompt": "Create a simple css program that demonstrates bug_fixing."
+            },
+            "2": {
+              "description": "Basic bug_fixing test with some challenges",
+              "prompt": "Create a css program that implements bug_fixing with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate bug_fixing test with multiple components",
+              "prompt": "Create a css program that demonstrates bug_fixing with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced bug_fixing test with complex logic",
+              "prompt": "Create a complex css program that implements bug_fixing with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level bug_fixing test with system design",
+              "prompt": "Design and implement a comprehensive css system that demonstrates expert-level bug_fixing."
+            }
+          }
+        }
+      },
+      "algorithm_design": {
+        "python": {
+          "description": "Default algorithm_design test for python",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple algorithm_design test for beginners",
+              "prompt": "Create a simple python program that demonstrates algorithm_design."
+            },
+            "2": {
+              "description": "Basic algorithm_design test with some challenges",
+              "prompt": "Create a python program that implements algorithm_design with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate algorithm_design test with multiple components",
+              "prompt": "Create a python program that demonstrates algorithm_design with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced algorithm_design test with complex logic",
+              "prompt": "Create a complex python program that implements algorithm_design with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level algorithm_design test with system design",
+              "prompt": "Design and implement a comprehensive python system that demonstrates expert-level algorithm_design."
+            }
+          }
+        },
+        "javascript": {
+          "description": "Default algorithm_design test for javascript",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple algorithm_design test for beginners",
+              "prompt": "Create a simple javascript program that demonstrates algorithm_design."
+            },
+            "2": {
+              "description": "Basic algorithm_design test with some challenges",
+              "prompt": "Create a javascript program that implements algorithm_design with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate algorithm_design test with multiple components",
+              "prompt": "Create a javascript program that demonstrates algorithm_design with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced algorithm_design test with complex logic",
+              "prompt": "Create a complex javascript program that implements algorithm_design with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level algorithm_design test with system design",
+              "prompt": "Design and implement a comprehensive javascript system that demonstrates expert-level algorithm_design."
+            }
+          }
+        },
+        "typescript": {
+          "description": "Default algorithm_design test for typescript",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple algorithm_design test for beginners",
+              "prompt": "Create a simple typescript program that demonstrates algorithm_design."
+            },
+            "2": {
+              "description": "Basic algorithm_design test with some challenges",
+              "prompt": "Create a typescript program that implements algorithm_design with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate algorithm_design test with multiple components",
+              "prompt": "Create a typescript program that demonstrates algorithm_design with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced algorithm_design test with complex logic",
+              "prompt": "Create a complex typescript program that implements algorithm_design with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level algorithm_design test with system design",
+              "prompt": "Design and implement a comprehensive typescript system that demonstrates expert-level algorithm_design."
+            }
+          }
+        },
+        "bash": {
+          "description": "Default algorithm_design test for bash",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple algorithm_design test for beginners",
+              "prompt": "Create a simple bash program that demonstrates algorithm_design."
+            },
+            "2": {
+              "description": "Basic algorithm_design test with some challenges",
+              "prompt": "Create a bash program that implements algorithm_design with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate algorithm_design test with multiple components",
+              "prompt": "Create a bash program that demonstrates algorithm_design with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced algorithm_design test with complex logic",
+              "prompt": "Create a complex bash program that implements algorithm_design with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level algorithm_design test with system design",
+              "prompt": "Design and implement a comprehensive bash system that demonstrates expert-level algorithm_design."
+            }
+          }
+        },
+        "html": {
+          "description": "Default algorithm_design test for html",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple algorithm_design test for beginners",
+              "prompt": "Create a simple html program that demonstrates algorithm_design."
+            },
+            "2": {
+              "description": "Basic algorithm_design test with some challenges",
+              "prompt": "Create a html program that implements algorithm_design with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate algorithm_design test with multiple components",
+              "prompt": "Create a html program that demonstrates algorithm_design with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced algorithm_design test with complex logic",
+              "prompt": "Create a complex html program that implements algorithm_design with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level algorithm_design test with system design",
+              "prompt": "Design and implement a comprehensive html system that demonstrates expert-level algorithm_design."
+            }
+          }
+        },
+        "css": {
+          "description": "Default algorithm_design test for css",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple algorithm_design test for beginners",
+              "prompt": "Create a simple css program that demonstrates algorithm_design."
+            },
+            "2": {
+              "description": "Basic algorithm_design test with some challenges",
+              "prompt": "Create a css program that implements algorithm_design with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate algorithm_design test with multiple components",
+              "prompt": "Create a css program that demonstrates algorithm_design with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced algorithm_design test with complex logic",
+              "prompt": "Create a complex css program that implements algorithm_design with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level algorithm_design test with system design",
+              "prompt": "Design and implement a comprehensive css system that demonstrates expert-level algorithm_design."
+            }
+          }
+        }
+      },
+      "code_optimization": {
+        "python": {
+          "description": "Default code_optimization test for python",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_optimization test for beginners",
+              "prompt": "Create a simple python program that demonstrates code_optimization."
+            },
+            "2": {
+              "description": "Basic code_optimization test with some challenges",
+              "prompt": "Create a python program that implements code_optimization with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_optimization test with multiple components",
+              "prompt": "Create a python program that demonstrates code_optimization with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_optimization test with complex logic",
+              "prompt": "Create a complex python program that implements code_optimization with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_optimization test with system design",
+              "prompt": "Design and implement a comprehensive python system that demonstrates expert-level code_optimization."
+            }
+          }
+        },
+        "javascript": {
+          "description": "Default code_optimization test for javascript",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_optimization test for beginners",
+              "prompt": "Create a simple javascript program that demonstrates code_optimization."
+            },
+            "2": {
+              "description": "Basic code_optimization test with some challenges",
+              "prompt": "Create a javascript program that implements code_optimization with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_optimization test with multiple components",
+              "prompt": "Create a javascript program that demonstrates code_optimization with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_optimization test with complex logic",
+              "prompt": "Create a complex javascript program that implements code_optimization with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_optimization test with system design",
+              "prompt": "Design and implement a comprehensive javascript system that demonstrates expert-level code_optimization."
+            }
+          }
+        },
+        "typescript": {
+          "description": "Default code_optimization test for typescript",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_optimization test for beginners",
+              "prompt": "Create a simple typescript program that demonstrates code_optimization."
+            },
+            "2": {
+              "description": "Basic code_optimization test with some challenges",
+              "prompt": "Create a typescript program that implements code_optimization with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_optimization test with multiple components",
+              "prompt": "Create a typescript program that demonstrates code_optimization with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_optimization test with complex logic",
+              "prompt": "Create a complex typescript program that implements code_optimization with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_optimization test with system design",
+              "prompt": "Design and implement a comprehensive typescript system that demonstrates expert-level code_optimization."
+            }
+          }
+        },
+        "bash": {
+          "description": "Default code_optimization test for bash",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_optimization test for beginners",
+              "prompt": "Create a simple bash program that demonstrates code_optimization."
+            },
+            "2": {
+              "description": "Basic code_optimization test with some challenges",
+              "prompt": "Create a bash program that implements code_optimization with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_optimization test with multiple components",
+              "prompt": "Create a bash program that demonstrates code_optimization with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_optimization test with complex logic",
+              "prompt": "Create a complex bash program that implements code_optimization with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_optimization test with system design",
+              "prompt": "Design and implement a comprehensive bash system that demonstrates expert-level code_optimization."
+            }
+          }
+        },
+        "html": {
+          "description": "Default code_optimization test for html",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_optimization test for beginners",
+              "prompt": "Create a simple html program that demonstrates code_optimization."
+            },
+            "2": {
+              "description": "Basic code_optimization test with some challenges",
+              "prompt": "Create a html program that implements code_optimization with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_optimization test with multiple components",
+              "prompt": "Create a html program that demonstrates code_optimization with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_optimization test with complex logic",
+              "prompt": "Create a complex html program that implements code_optimization with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_optimization test with system design",
+              "prompt": "Design and implement a comprehensive html system that demonstrates expert-level code_optimization."
+            }
+          }
+        },
+        "css": {
+          "description": "Default code_optimization test for css",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_optimization test for beginners",
+              "prompt": "Create a simple css program that demonstrates code_optimization."
+            },
+            "2": {
+              "description": "Basic code_optimization test with some challenges",
+              "prompt": "Create a css program that implements code_optimization with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_optimization test with multiple components",
+              "prompt": "Create a css program that demonstrates code_optimization with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_optimization test with complex logic",
+              "prompt": "Create a complex css program that implements code_optimization with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_optimization test with system design",
+              "prompt": "Design and implement a comprehensive css system that demonstrates expert-level code_optimization."
+            }
+          }
+        }
+      },
+      "refactoring": {
+        "python": {
+          "description": "Default refactoring test for python",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple refactoring test for beginners",
+              "prompt": "Create a simple python program that demonstrates refactoring."
+            },
+            "2": {
+              "description": "Basic refactoring test with some challenges",
+              "prompt": "Create a python program that implements refactoring with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate refactoring test with multiple components",
+              "prompt": "Create a python program that demonstrates refactoring with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced refactoring test with complex logic",
+              "prompt": "Create a complex python program that implements refactoring with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level refactoring test with system design",
+              "prompt": "Design and implement a comprehensive python system that demonstrates expert-level refactoring."
+            }
+          }
+        },
+        "javascript": {
+          "description": "Default refactoring test for javascript",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple refactoring test for beginners",
+              "prompt": "Create a simple javascript program that demonstrates refactoring."
+            },
+            "2": {
+              "description": "Basic refactoring test with some challenges",
+              "prompt": "Create a javascript program that implements refactoring with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate refactoring test with multiple components",
+              "prompt": "Create a javascript program that demonstrates refactoring with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced refactoring test with complex logic",
+              "prompt": "Create a complex javascript program that implements refactoring with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level refactoring test with system design",
+              "prompt": "Design and implement a comprehensive javascript system that demonstrates expert-level refactoring."
+            }
+          }
+        },
+        "typescript": {
+          "description": "Default refactoring test for typescript",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple refactoring test for beginners",
+              "prompt": "Create a simple typescript program that demonstrates refactoring."
+            },
+            "2": {
+              "description": "Basic refactoring test with some challenges",
+              "prompt": "Create a typescript program that implements refactoring with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate refactoring test with multiple components",
+              "prompt": "Create a typescript program that demonstrates refactoring with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced refactoring test with complex logic",
+              "prompt": "Create a complex typescript program that implements refactoring with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level refactoring test with system design",
+              "prompt": "Design and implement a comprehensive typescript system that demonstrates expert-level refactoring."
+            }
+          }
+        },
+        "bash": {
+          "description": "Default refactoring test for bash",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple refactoring test for beginners",
+              "prompt": "Create a simple bash program that demonstrates refactoring."
+            },
+            "2": {
+              "description": "Basic refactoring test with some challenges",
+              "prompt": "Create a bash program that implements refactoring with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate refactoring test with multiple components",
+              "prompt": "Create a bash program that demonstrates refactoring with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced refactoring test with complex logic",
+              "prompt": "Create a complex bash program that implements refactoring with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level refactoring test with system design",
+              "prompt": "Design and implement a comprehensive bash system that demonstrates expert-level refactoring."
+            }
+          }
+        },
+        "html": {
+          "description": "Default refactoring test for html",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple refactoring test for beginners",
+              "prompt": "Create a simple html program that demonstrates refactoring."
+            },
+            "2": {
+              "description": "Basic refactoring test with some challenges",
+              "prompt": "Create a html program that implements refactoring with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate refactoring test with multiple components",
+              "prompt": "Create a html program that demonstrates refactoring with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced refactoring test with complex logic",
+              "prompt": "Create a complex html program that implements refactoring with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level refactoring test with system design",
+              "prompt": "Design and implement a comprehensive html system that demonstrates expert-level refactoring."
+            }
+          }
+        },
+        "css": {
+          "description": "Default refactoring test for css",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple refactoring test for beginners",
+              "prompt": "Create a simple css program that demonstrates refactoring."
+            },
+            "2": {
+              "description": "Basic refactoring test with some challenges",
+              "prompt": "Create a css program that implements refactoring with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate refactoring test with multiple components",
+              "prompt": "Create a css program that demonstrates refactoring with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced refactoring test with complex logic",
+              "prompt": "Create a complex css program that implements refactoring with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level refactoring test with system design",
+              "prompt": "Design and implement a comprehensive css system that demonstrates expert-level refactoring."
+            }
+          }
+        }
+      },
+      "code_generation": {
+        "python": {
+          "description": "Default code_generation test for python",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_generation test for beginners",
+              "prompt": "Create a simple python program that demonstrates code_generation."
+            },
+            "2": {
+              "description": "Basic code_generation test with some challenges",
+              "prompt": "Create a python program that implements code_generation with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_generation test with multiple components",
+              "prompt": "Create a python program that demonstrates code_generation with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_generation test with complex logic",
+              "prompt": "Create a complex python program that implements code_generation with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_generation test with system design",
+              "prompt": "Design and implement a comprehensive python system that demonstrates expert-level code_generation."
+            }
+          }
+        },
+        "javascript": {
+          "description": "Default code_generation test for javascript",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_generation test for beginners",
+              "prompt": "Create a simple javascript program that demonstrates code_generation."
+            },
+            "2": {
+              "description": "Basic code_generation test with some challenges",
+              "prompt": "Create a javascript program that implements code_generation with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_generation test with multiple components",
+              "prompt": "Create a javascript program that demonstrates code_generation with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_generation test with complex logic",
+              "prompt": "Create a complex javascript program that implements code_generation with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_generation test with system design",
+              "prompt": "Design and implement a comprehensive javascript system that demonstrates expert-level code_generation."
+            }
+          }
+        },
+        "typescript": {
+          "description": "Default code_generation test for typescript",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_generation test for beginners",
+              "prompt": "Create a simple typescript program that demonstrates code_generation."
+            },
+            "2": {
+              "description": "Basic code_generation test with some challenges",
+              "prompt": "Create a typescript program that implements code_generation with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_generation test with multiple components",
+              "prompt": "Create a typescript program that demonstrates code_generation with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_generation test with complex logic",
+              "prompt": "Create a complex typescript program that implements code_generation with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_generation test with system design",
+              "prompt": "Design and implement a comprehensive typescript system that demonstrates expert-level code_generation."
+            }
+          }
+        },
+        "bash": {
+          "description": "Default code_generation test for bash",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_generation test for beginners",
+              "prompt": "Create a simple bash program that demonstrates code_generation."
+            },
+            "2": {
+              "description": "Basic code_generation test with some challenges",
+              "prompt": "Create a bash program that implements code_generation with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_generation test with multiple components",
+              "prompt": "Create a bash program that demonstrates code_generation with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_generation test with complex logic",
+              "prompt": "Create a complex bash program that implements code_generation with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_generation test with system design",
+              "prompt": "Design and implement a comprehensive bash system that demonstrates expert-level code_generation."
+            }
+          }
+        },
+        "html": {
+          "description": "Default code_generation test for html",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_generation test for beginners",
+              "prompt": "Create a simple html program that demonstrates code_generation."
+            },
+            "2": {
+              "description": "Basic code_generation test with some challenges",
+              "prompt": "Create a html program that implements code_generation with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_generation test with multiple components",
+              "prompt": "Create a html program that demonstrates code_generation with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_generation test with complex logic",
+              "prompt": "Create a complex html program that implements code_generation with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_generation test with system design",
+              "prompt": "Design and implement a comprehensive html system that demonstrates expert-level code_generation."
+            }
+          }
+        },
+        "css": {
+          "description": "Default code_generation test for css",
+          "complexity_levels": {
+            "1": {
+              "description": "Very simple code_generation test for beginners",
+              "prompt": "Create a simple css program that demonstrates code_generation."
+            },
+            "2": {
+              "description": "Basic code_generation test with some challenges",
+              "prompt": "Create a css program that implements code_generation with basic error handling."
+            },
+            "3": {
+              "description": "Intermediate code_generation test with multiple components",
+              "prompt": "Create a css program that demonstrates code_generation with multiple functions and proper error handling."
+            },
+            "4": {
+              "description": "Advanced code_generation test with complex logic",
+              "prompt": "Create a complex css program that implements code_generation with advanced techniques and optimizations."
+            },
+            "5": {
+              "description": "Expert-level code_generation test with system design",
+              "prompt": "Design and implement a comprehensive css system that demonstrates expert-level code_generation."
+            }
+          }
+        }
+      }
+    }
+  }
+}

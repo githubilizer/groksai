@@ -1,0 +1,210 @@
+import os
+import json
+import logging
+import time
+import shutil
+from datetime import datetime
+
+class MemoryManager:
+    def __init__(self, config):
+        self.logger = logging.getLogger(__name__)
+        self.config = config
+        self.memory_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "memory")
+        
+        # Create memory directories if they don't exist
+        self.ensure_memory_dirs()
+        
+        # Initialize memory caches
+        self.action_logs = []
+        self.knowledge_base = self._load_knowledge_base()
+        self.test_history = self._load_test_history()
+        
+        self.logger.info("Memory manager initialized")
+    
+    def ensure_memory_dirs(self):
+        """Ensure all required memory directories exist"""
+        dirs = [
+            self.memory_dir,
+            os.path.join(self.memory_dir, "actions"),
+            os.path.join(self.memory_dir, "knowledge"),
+            os.path.join(self.memory_dir, "tests"),
+            os.path.join(self.memory_dir, "cycles"),
+            os.path.join(self.memory_dir, "backups")
+        ]
+        
+        for dir_path in dirs:
+            if not os.path.exists(dir_path):
+                os.makedirs(dir_path)
+                self.logger.info(f"Created memory directory: {dir_path}")
+    
+    def _load_knowledge_base(self):
+        """Load the knowledge base from disk"""
+        kb_path = os.path.join(self.memory_dir, "knowledge", "knowledge_base.json")
+        if os.path.exists(kb_path):
+            try:
+                with open(kb_path, 'r') as f:
+                    return json.load(f)
+            except Exception as e:
+                self.logger.error(f"Error loading knowledge base: {e}")
+                return {"concepts": {}, "rules": [], "examples": []}
+        else:
+            return {"concepts": {}, "rules": [], "examples": []}
+    
+    def _load_test_history(self):
+        """Load the test history from disk"""
+        history_path = os.path.join(self.memory_dir, "tests", "test_history.json")
+        if os.path.exists(history_path):
+            try:
+                with open(history_path, 'r') as f:
+                    return json.load(f)
+            except Exception as e:
+                self.logger.error(f"Error loading test history: {e}")
+                return {"tests": [], "results": {}}
+        else:
+            return {"tests": [], "results": {}}
+    
+    def log_agent_action(self, action_log):
+        """Log an agent action"""
+        self.action_logs.append(action_log)
+        
+        # Save to disk periodically (every 10 actions)
+        if len(self.action_logs) >= 10:
+            self._save_action_logs()
+    
+    def _save_action_logs(self):
+        """Save accumulated action logs to disk"""
+        if not self.action_logs:
+            return
+            
+        timestamp = int(time.time())
+        log_path = os.path.join(self.memory_dir, "actions", f"actions_{timestamp}.json")
+        
+        try:
+            with open(log_path, 'w') as f:
+                json.dump(self.action_logs, f, indent=2)
+            self.logger.debug(f"Saved {len(self.action_logs)} action logs to {log_path}")
+            self.action_logs = []
+        except Exception as e:
+            self.logger.error(f"Error saving action logs: {e}")
+    
+    def save_knowledge(self, concept, data):
+        """Save a piece of knowledge to the knowledge base"""
+        self.knowledge_base["concepts"][concept] = data
+        self._save_knowledge_base()
+        
+        self.logger.info(f"Saved knowledge: {concept}")
+        return True
+    
+    def get_knowledge(self, concept=None):
+        """Retrieve knowledge from the knowledge base"""
+        if concept:
+            return self.knowledge_base["concepts"].get(concept, None)
+        return self.knowledge_base
+    
+    def _save_knowledge_base(self):
+        """Save the knowledge base to disk"""
+        kb_path = os.path.join(self.memory_dir, "knowledge", "knowledge_base.json")
+        try:
+            with open(kb_path, 'w') as f:
+                json.dump(self.knowledge_base, f, indent=2)
+            self.logger.debug("Saved knowledge base")
+            return True
+        except Exception as e:
+            self.logger.error(f"Error saving knowledge base: {e}")
+            return False
+    
+    def save_test(self, test_data):
+        """Save a test to the test history"""
+        test_id = len(self.test_history["tests"])
+        test_data["id"] = test_id
+        test_data["created"] = time.time()
+        
+        self.test_history["tests"].append(test_data)
+        self._save_test_history()
+        
+        return test_id
+    
+    def save_test_result(self, test_id, result):
+        """Save a test result to the test history"""
+        if str(test_id) not in self.test_history["results"]:
+            self.test_history["results"][str(test_id)] = []
+            
+        result["timestamp"] = time.time()
+        self.test_history["results"][str(test_id)].append(result)
+        self._save_test_history()
+        
+        return True
+    
+    def _save_test_history(self):
+        """Save the test history to disk"""
+        history_path = os.path.join(self.memory_dir, "tests", "test_history.json")
+        try:
+            with open(history_path, 'w') as f:
+                json.dump(self.test_history, f, indent=2)
+            self.logger.debug("Saved test history")
+            return True
+        except Exception as e:
+            self.logger.error(f"Error saving test history: {e}")
+            return False
+    
+    def save_cycle_results(self, cycle_number, results):
+        """Save results from a complete system cycle"""
+        cycle_path = os.path.join(self.memory_dir, "cycles", f"cycle_{cycle_number}.json")
+        
+        results["timestamp"] = time.time()
+        results["cycle"] = cycle_number
+        
+        try:
+            with open(cycle_path, 'w') as f:
+                json.dump(results, f, indent=2)
+            self.logger.info(f"Saved results for cycle {cycle_number}")
+            return True
+        except Exception as e:
+            self.logger.error(f"Error saving cycle results: {e}")
+            return False
+    
+    def get_cycle_count(self):
+        """Get the current cycle count based on files in the cycles directory"""
+        cycles_dir = os.path.join(self.memory_dir, "cycles")
+        if not os.path.exists(cycles_dir):
+            return 0
+            
+        cycle_files = [f for f in os.listdir(cycles_dir) if f.startswith("cycle_") and f.endswith(".json")]
+        if not cycle_files:
+            return 0
+            
+        try:
+            cycle_numbers = [int(f.split("_")[1].split(".")[0]) for f in cycle_files]
+            return max(cycle_numbers)
+        except Exception:
+            return len(cycle_files)
+    
+    def create_backup(self):
+        """Create a backup of the entire memory directory"""
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        backup_dir = os.path.join(self.memory_dir, "backups", f"backup_{timestamp}")
+        
+        try:
+            # Ensure all logs are saved
+            self._save_action_logs()
+            self._save_knowledge_base()
+            self._save_test_history()
+            
+            # Create the backup directory
+            os.makedirs(backup_dir, exist_ok=True)
+            
+            # Copy all files except backups
+            for item in os.listdir(self.memory_dir):
+                if item != "backups":
+                    src = os.path.join(self.memory_dir, item)
+                    dst = os.path.join(backup_dir, item)
+                    if os.path.isdir(src):
+                        shutil.copytree(src, dst)
+                    else:
+                        shutil.copy2(src, dst)
+            
+            self.logger.info(f"Created memory backup at {backup_dir}")
+            return backup_dir
+        except Exception as e:
+            self.logger.error(f"Error creating backup: {e}")
+            return None 

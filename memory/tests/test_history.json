@@ -1,0 +1,2672 @@
+{
+  "tests": [
+    {
+      "name": "Fallback Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1748980586.8313556,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 0,
+      "created": 1748980586.831363
+    },
+    {
+      "name": "Basic Processing Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test to evaluate if the system can process an input and return it as output.",
+      "inputs": {
+        "value": 5
+      },
+      "code": "def test_function(x):\n    return x",
+      "success_criteria": "The result should be equal to the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1748980590.2487533,
+      "generator_version": "1.0",
+      "is_fallback": false,
+      "id": 1,
+      "created": 1748980590.2487602
+    },
+    {
+      "name": "Integration Basic Processing Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A test to evaluate if the system can process an input correctly.",
+      "inputs": {
+        "value": 7
+      },
+      "code": "def test_function(x):\n    return x",
+      "success_criteria": "The result should be equal to the input value.",
+      "timeout_seconds": 30,
+      "generated_at": 1748980593.1577177,
+      "generator_version": "1.0",
+      "id": 2,
+      "created": 1748980593.1577349
+    },
+    {
+      "name": "Fallback Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1748980631.5035334,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 3,
+      "created": 1748980631.5035408
+    },
+    {
+      "name": "Fallback Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1748980635.2789211,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 4,
+      "created": 1748980635.2789302
+    },
+    {
+      "name": "Fallback Function Test",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1748980639.245642,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 5,
+      "created": 1748980639.2456486
+    },
+    {
+      "name": "Basic Processing Test",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "A basic test to evaluate if the system can process an input and return it as output.",
+      "inputs": {
+        "value": 10
+      },
+      "code": null,
+      "success_criteria": "The result should be equal to the input value (10)",
+      "timeout_seconds": 30,
+      "generated_at": 1748980774.036949,
+      "generator_version": "1.0",
+      "is_fallback": false,
+      "id": 6,
+      "created": 1748980774.0369546
+    },
+    {
+      "name": "Fallback Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1748980777.8665798,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 7,
+      "created": 1748980777.8665867
+    },
+    {
+      "name": "Basic Input Validation Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "Test to ensure the system correctly processes an input value and returns it as output.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x): return x",
+      "success_criteria": "The result should be equal to the input value (10)",
+      "timeout_seconds": 30,
+      "generated_at": 1748980783.2024798,
+      "generator_version": "1.0",
+      "is_fallback": false,
+      "id": 8,
+      "created": 1748980783.2024853
+    },
+    {
+      "name": "Basic Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A basic integration test to verify that the system correctly processes an input and returns it as output.",
+      "inputs": {
+        "value": 10
+      },
+      "code": null,
+      "success_criteria": "The result should be equal to the input value (10)",
+      "timeout_seconds": 30,
+      "generated_at": 1748981401.0174196,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 9,
+      "created": 1748981401.017425
+    },
+    {
+      "name": "Fallback Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1748981404.98634,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 10,
+      "created": 1748981404.986347
+    },
+    {
+      "name": "Fallback System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1748981409.9445388,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 11,
+      "created": 1748981409.9445457
+    },
+    {
+      "name": "Basic Input Processing Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "Test that processes an input value (5) through a simple function and verifies the result.",
+      "inputs": {
+        "value": 5
+      },
+      "code": "def test_function(x): return x",
+      "success_criteria": "The result should be equal to the input value (5)",
+      "timeout_seconds": 30,
+      "generated_at": 1749028867.5963151,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 12,
+      "created": 1749028867.5963225
+    },
+    {
+      "name": "Fallback Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749028911.0317514,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 13,
+      "created": 1749028911.0317624
+    },
+    {
+      "name": "Fallback Performance Test",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749028953.0140314,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 14,
+      "created": 1749028953.014038
+    },
+    {
+      "name": "Basic Input Processing Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "Test that processes input through a simple multiplication function.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x): return x * 2",
+      "success_criteria": "The result should be twice the input value (expected output: 20)",
+      "timeout_seconds": 30,
+      "generated_at": 1749028997.9511058,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 15,
+      "created": 1749028997.9511118
+    },
+    {
+      "name": "Fallback Performance Test",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749029040.1015637,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 16,
+      "created": 1749029040.10157
+    },
+    {
+      "test_cases": [
+        {
+          "name": "Basic Input Processing Integration Test",
+          "type": "integration",
+          "complexity": "beginner",
+          "description": "Test that processes an input value (5) through a simple function and verifies the result.",
+          "inputs": {
+            "value": 5
+          },
+          "code": "def test_function(x): return x",
+          "success_criteria": "The result should be equal to the input value (5)",
+          "timeout_seconds": 30,
+          "generated_at": "1749028867.5963151",
+          "generator_version": "1.0",
+          "is_fallback": true,
+          "id": 12,
+          "created": "1749028867.5963225"
+        }
+      ],
+      "generated_at": 1749029081.796593,
+      "generator_version": "1.0",
+      "id": 17,
+      "created": 1749029081.7965982
+    },
+    {
+      "name": "Fallback Function Test",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749029122.2078183,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 18,
+      "created": 1749029122.207825
+    },
+    {
+      "name": "Fallback Function Test",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749029168.9146044,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 19,
+      "created": 1749029168.9146123
+    },
+    {
+      "name": "Basic Input Processing",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "Tests if the integration handles basic input processing correctly by returning double the value.",
+      "inputs": [
+        "123",
+        "Hello"
+      ],
+      "code": "def test_function(x): return x * 2\n\ntest_function(456)\nprint('Expected output:', 'Double of', 456)",
+      "success_criteria": "Return a string that shows the input value and the result after multiplication.",
+      "timeout_seconds": 30,
+      "failure_reason": "test_function() got an unexpected keyword argument 'value'",
+      "generated_at": 1749030198.5365837,
+      "generator_version": "1.0",
+      "id": 20,
+      "created": 1749030198.5365918
+    },
+    {
+      "name": "Fallback System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749030242.5341809,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 21,
+      "created": 1749030242.534192
+    },
+    {
+      "name": "Fallback System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749030540.2241945,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 22,
+      "created": 1749030540.2242033
+    },
+    {
+      "name": "Fallback Function Test",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749030588.085265,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 23,
+      "created": 1749030588.085273
+    },
+    {
+      "name": "Basic Function Testing",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "Tests if basic function integration and multiplication work correctly.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x): return x * 2\n\ntest_function(10)\nprint('Expected output:', 'Double of', 10)",
+      "success_criteria": "Return a string that shows the input value and the result after multiplication.",
+      "timeout_seconds": 30,
+      "generated_at": 1749030628.9791663,
+      "generator_version": "1.0",
+      "id": 24,
+      "created": 1749030628.979171
+    },
+    {
+      "name": "Basic Input Processing",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "Tests if a simple function correctly doubles its input value.",
+      "inputs": [],
+      "code": "def test_function(x): return x * 2\n\ntest_function(456)",
+      "success_criteria": "Return a string that shows the input value and the result after multiplication.",
+      "timeout_seconds": 30,
+      "failure_reason": "test_function() got an unexpected keyword argument 'value'",
+      "generated_at": 1749030671.198953,
+      "generator_version": "1.0",
+      "id": 25,
+      "created": 1749030671.1989598
+    },
+    {
+      "name": "Basic Input Processing Function Test",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "Tests if a function correctly doubles its input value.",
+      "inputs": {
+        "value": 10,
+        "result": null
+      },
+      "code": "def test_function(x): return x * 2\n\ntest_function(10)\nprint('Expected output:', 'Double of', 10)",
+      "success_criteria": "Return a string that shows the input value and the result after multiplication, specifically testing if the input is doubled.",
+      "timeout_seconds": 30,
+      "generated_at": 1749030900.2651098,
+      "generator_version": "1.0",
+      "id": 26,
+      "created": 1749030900.2651174
+    },
+    {
+      "name": "Basic Function Processing Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "Tests if function processing an input value is successful, handling multiple values and returning processed inputs.",
+      "inputs": {
+        "value": 10,
+        "result": null
+      },
+      "code": "def test_function(x): return x if x else 'None'\n\ntest_function(10)\nprint('Processed input:', x)",
+      "success_criteria": "Return a string indicating the processed input value correctly, and handle optional inputs gracefully.",
+      "timeout_seconds": 30,
+      "generated_at": 1749030911.7996273,
+      "generator_version": "1.0",
+      "id": 27,
+      "created": 1749030911.799634
+    },
+    {
+      "name": "Basic Function Testing",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "Tests if a function correctly doubles its input value.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x): return x * 2\n\ntest_function(10)\nprint('Expected output:', 'Double of', 10)",
+      "success_criteria": "Return a string showing the input value and the result after doubling.",
+      "timeout_seconds": 30,
+      "generated_at": 1749031404.5277686,
+      "generator_version": "1.0",
+      "id": 28,
+      "created": 1749031404.5277746
+    },
+    {
+      "name": "Basic Function Testing",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "Tests if basic function integration and multiplication work correctly.",
+      "inputs": {
+        "value": 10,
+        "result": null
+      },
+      "code": "def test_function(x): return x * 2\n\ntest_function(10)\nprint('Expected output:', 'Double of', 10)",
+      "success_criteria": "Return a string showing the input value and the result after multiplication, specifically testing if the input is doubled.",
+      "timeout_seconds": 30,
+      "generated_at": 1749031417.831211,
+      "generator_version": "1.0",
+      "id": 29,
+      "created": 1749031417.831217
+    },
+    {
+      "name": "Simple Input Processing",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "Tests if a simple function correctly processes each input value.",
+      "inputs": {
+        "value1": "Hello",
+        "value2": 123
+      },
+      "code": "def test_function(x): return x * 2\n\ntest_function(value1)\nprint('Processed results:', result)\n",
+      "success_criteria": "Return an object with two keys, 'value1' and 'value2', each showing the processed result.",
+      "timeout_seconds": 30,
+      "generator_version": "1.0",
+      "id": 30,
+      "created": 1749031428.6288614,
+      "generated_at": 1749031428.6288536
+    },
+    {
+      "name": "Basic Multiplication Performance Test",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "Tests if a function correctly multiplies its input value with an optional default.",
+      "inputs": {
+        "a": 10,
+        "b": null
+      },
+      "code": "def test_function(a, b=5): return (a + b) * 2\n\ntest_function(a)\nprint('Result:', result)",
+      "success_criteria": "Return an object with two keys, 'result' and 'message', showing the processed value after multiplication. Handle optional inputs gracefully and check for unexpected keyword arguments.",
+      "timeout_seconds": 30,
+      "generated_at": 1749031445.8214169,
+      "generator_version": "1.0",
+      "id": 31,
+      "created": 1749031445.8214216
+    },
+    {
+      "name": "Input Validation Test",
+      "type": "input",
+      "complexity": "beginner",
+      "description": "Tests if function correctly processes at least two required inputs and handles optional parameters gracefully.",
+      "inputs": {
+        "val1": "Hello there",
+        "val2": 123,
+        "extraArg": null
+      },
+      "code": "def test_input(val1, val2=undefined, extraArg): return 'Valid inputs:', [val1, val2] if both are provided; else null\n\ntest_input('Hello there', 123)\nprint('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected parameters gracefully. If any parameter is missing or extra, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749031457.8573916,
+      "generator_version": "1.0",
+      "id": 32,
+      "created": 1749031457.8573968
+    },
+    {
+      "name": "Basic Addition Testing",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "Tests if a function correctly adds two input values.",
+      "inputs": {
+        "val1": "Hello there",
+        "val2": 123
+      },
+      "code": "def test_function(val1, val2=undefined): return 'Valid inputs:', [val1, val2] if both are provided; else null\n\ntest_function('Hello there', 123)\nprint('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected parameters gracefully. If any parameter is missing or extra, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749031517.521314,
+      "generator_version": "1.0",
+      "id": 33,
+      "created": 1749031517.5213184
+    },
+    {
+      "name": "Fallback Performance Test",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749031529.3022676,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 34,
+      "created": 1749031529.3022742
+    },
+    {
+      "name": "Fallback Performance Test",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749031544.080158,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 35,
+      "created": 1749031544.0801663
+    },
+    {
+      "name": "Multiplication Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "Tests if a function correctly multiplies its input value with an optional default.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value): return 'Valid inputs:', [value] if both are provided; else null\n\ntest_function(10)\nprint('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected keyword arguments gracefully. If any parameter is missing, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749031553.9184778,
+      "generator_version": "1.0",
+      "id": 36,
+      "created": 1749031553.9184828
+    },
+    {
+      "name": "Basic Addition Test",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "Tests if a function correctly adds two input values.",
+      "inputs": {
+        "val1": "Hello there",
+        "val2": 123
+      },
+      "code": "def test_function(val1, val2=undefined): return 'Valid inputs:', [val1, val2] if both are provided; else null\n\ntest_function('Hello there', 123)\nprint('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected parameters gracefully. If any parameter is missing or extra, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749031563.3293085,
+      "generator_version": "1.0",
+      "id": 37,
+      "created": 1749031563.329314
+    },
+    {
+      "name": "Multiplication Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "Tests if a function correctly multiplies its input value with an optional default.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value): return 'Valid inputs:', [value] if both are provided; else null\n\ntest_function(10)\nprint('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected keyword arguments gracefully. If any parameter is missing, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749031598.4740345,
+      "generator_version": "1.0",
+      "id": 38,
+      "created": 1749031598.4740393
+    },
+    {
+      "name": "Multiplication Test",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "Tests if a function correctly multiplies its input value with an optional default.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value): return 'Valid inputs:', [value] if both are provided; else null\n\ntest_function(10)\nprint('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected keyword arguments gracefully. If any parameter is missing, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749031609.9167345,
+      "generator_version": "1.0",
+      "id": 39,
+      "created": 1749031609.9167387
+    },
+    {
+      "name": "Basic Addition Test",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "Tests if a function correctly adds two input values with optional default.",
+      "inputs": {
+        "val1": "Hello there",
+        "val2": 123
+      },
+      "code": "def test_function(val1, val2=undefined): return 'Valid inputs:', [val1, val2] if both are provided; else null\n\ntest_function('Hello there', 123)\nprint('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected keyword arguments gracefully. If any parameter is missing, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749031625.3699448,
+      "generator_version": "1.0",
+      "id": 40,
+      "created": 1749031625.369949
+    },
+    {
+      "name": "Fallback Performance Test",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(x):\n    return x * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749031634.6484678,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 41,
+      "created": 1749031634.648475
+    },
+    {
+      "name": "Fallback Performance Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback to handle unexpected parameters in integration functions.",
+      "inputs": {
+        "dividend": "",
+        "divisor": 5,
+        "message": ""
+      },
+      "code": "def test_function(dividend, divisor=5, message=\"\">\"): \n  return 'Valid inputs:', [dividend, divisor, message] if both are provided; else null\n\ntest_function('Hello there', 5, \">5\")\nprint('Result:', result)",
+      "success_criteria": "Result should be a combination of the values and message if all parameters are properly handled.",
+      "timeout_seconds": 30,
+      "generated_at": 1749033237.3160498,
+      "generator_version": "1.0",
+      "id": 42,
+      "created": 1749033237.3160565
+    },
+    {
+      "name": "Basic Addition Test",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "Tests if a function correctly adds two input values with optional default.",
+      "inputs": {
+        "val1": "Hello there",
+        "val2": 123
+      },
+      "code": "def test_function(val1, val2=undefined): return 'Valid inputs:', [val1, val2] if both are provided; else null\n\ntest_function('Hello there', 123)\nprint('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected keyword arguments gracefully. If any parameter is missing, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749033328.6934006,
+      "generator_version": "1.0",
+      "id": 43,
+      "created": 1749033328.6934085
+    },
+    {
+      "name": "Multiplication Test",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "Tests if a function correctly adds two input values with optional default.",
+      "inputs": {
+        "val1": 5,
+        "val2": 3
+      },
+      "code": "def test_function(val1, val2=1): return 'Valid inputs:', [val1, val2] if both are provided; else null\n\ntest_function(5, 3)\nprint('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected keyword arguments gracefully. If any parameter is missing, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749033358.6317627,
+      "generator_version": "1.0",
+      "id": 44,
+      "created": 1749033358.6317668
+    },
+    {
+      "name": "Fallback Function Test",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749033425.037916,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 45,
+      "created": 1749033425.0379243
+    },
+    {
+      "name": "Multiplication Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "Tests if a multiplication function correctly handles both inputs with optional default values.",
+      "inputs": {
+        "val1": 5,
+        "val2": 3
+      },
+      "code": "def test_function(val1, val2=1): \n  return 'Valid inputs:', [val1, val2] if both are provided; else null\n\ntest_function(5, 3)\nprint('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected keyword arguments gracefully. If any parameter is missing, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749033482.5641081,
+      "generator_version": "1.0",
+      "id": 46,
+      "created": 1749033482.5641143
+    },
+    {
+      "name": "Basic Function Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "Tests if a system can handle function integration with optional parameters.",
+      "inputs": {
+        "a": 5,
+        "b": "hello"
+      },
+      "code": "def test_function(a, b=0): \n  return 'Valid inputs:', [a] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected keyword arguments gracefully. If any parameter is missing, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749033910.3028846,
+      "generator_version": "1.0",
+      "id": 47,
+      "created": 1749033910.3028913
+    },
+    {
+      "name": "Fallback System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749033923.3676414,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 48,
+      "created": 1749033923.3676493
+    },
+    {
+      "name": "Multiplication System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to correctly compute multiplication of two inputs with optional default values.",
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\"): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected keyword arguments gracefully. If any parameter is missing, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749033936.07596,
+      "generator_version": "1.0",
+      "id": 49,
+      "created": 1749033936.0759647
+    },
+    {
+      "name": "Multiplication System Test",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to correctly compute multiplication of two inputs with optional default values.",
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\":):\n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected keyword arguments gracefully. If any parameter is missing, return null.",
+      "timeout_seconds": 30,
+      "created": 1749033949.6832123,
+      "generated_at": 1749033949.6832078,
+      "generator_version": "1.0",
+      "id": 50
+    },
+    {
+      "name": "Multiplication Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "Tests if multiplication function correctly handles both inputs with optional default values.",
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected keyword arguments gracefully. If any parameter is missing, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749033961.2483084,
+      "generator_version": "1.0",
+      "id": 51,
+      "created": 1749033961.2483137
+    },
+    {
+      "name": "Fallback Performance Test",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749033987.3021379,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 52,
+      "created": 1749033987.3021455
+    },
+    {
+      "name": "Multiplication Function Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to correctly compute multiplication of two inputs with optional default values.",
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected keyword arguments gracefully. If any parameter is missing, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749033996.4615045,
+      "generator_version": "1.0",
+      "id": 53,
+      "created": 1749033996.4615095
+    },
+    {
+      "name": "Multiplication System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to compute multiplication of two inputs with optional default values.",
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": "Return an object with at least two keys: 'result' and 'message'. Handle unexpected keyword arguments gracefully. If any parameter is missing, return null.",
+      "timeout_seconds": 30,
+      "generated_at": 1749034038.031984,
+      "generator_version": "1.0",
+      "id": 54,
+      "created": 1749034038.031989
+    },
+    {
+      "name": "Multiplication Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": {
+        "details": "A test case for integration testing of a system's multiplication function with optional defaults."
+      },
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": {
+        "expected": [
+          {
+            "status": "true",
+            "description": "The multiplication should be successful, and the value returned is twice the first input."
+          }
+        ]
+      },
+      "timeout_seconds": 30,
+      "created": 1749034048.5279338,
+      "generated_at": 1749034048.527929,
+      "generator_version": "1.0",
+      "id": 55
+    },
+    {
+      "name": "Multiplication Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A test case for integration testing of a system's multiplication function with optional defaults.",
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": {
+        "expected": [
+          {
+            "status": "true",
+            "description": "The multiplication should be successful, and the value returned is twice the first input."
+          }
+        ]
+      },
+      "timeout_seconds": 30,
+      "created": 1749034060.5488722,
+      "generated_at": 1749034060.5488672,
+      "generator_version": "1.0",
+      "id": 56
+    },
+    {
+      "name": "Multiplication Function Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to compute multiplication of two inputs with optional default values.",
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": {
+        "expected": [
+          {
+            "status": "true",
+            "description": "The multiplication should be successful, and the value returned is twice the first input."
+          }
+        ]
+      },
+      "timeout_seconds": 30,
+      "created": 1749034070.8974726,
+      "generated_at": 1749034070.897468,
+      "generator_version": "1.0",
+      "id": 57
+    },
+    {
+      "name": "Multiplication Function Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to compute multiplication of two inputs with optional default values.",
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": {
+        "expected": [
+          {
+            "status": "true",
+            "description": "The multiplication should be successful, and the value returned is twice the first input."
+          }
+        ]
+      },
+      "timeout_seconds": 30,
+      "generated_at": 1749034089.9806688,
+      "generator_version": "1.0",
+      "id": 58,
+      "created": 1749034089.9806738
+    },
+    {
+      "name": "Fallback Function Test",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749034102.057908,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 59,
+      "created": 1749034102.057913
+    },
+    {
+      "name": "Multiplication System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test case to evaluate a system's ability to compute multiplication of two inputs with optional defaults.",
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": {
+        "expected": [
+          {
+            "status": "true",
+            "description": "The multiplication should be successful, and the value returned is twice the first input."
+          }
+        ]
+      },
+      "timeout_seconds": 30,
+      "created": 1749034130.5177047,
+      "generated_at": 1749034130.5176992,
+      "generator_version": "1.0",
+      "id": 60,
+      "failure_reason": "No values provided: failed function test"
+    },
+    {
+      "name": "Number Addition System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test case for evaluating a system that adds two numbers with optional defaults.",
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": {
+        "expected": [
+          {
+            "status": "true",
+            "description": "The addition should be successful, and the value returned is the sum of val1 and val2."
+          }
+        ]
+      },
+      "timeout_seconds": 30,
+      "created": 1749034142.0260577,
+      "generated_at": 1749034142.0260534,
+      "generator_version": "1.0",
+      "id": 61
+    },
+    {
+      "name": "Multiplication Function Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to compute multiplication of two inputs with optional defaults.",
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": {
+        "expected": [
+          {
+            "status": "true",
+            "description": "The multiplication should be successful, and the value returned is twice the first input."
+          }
+        ]
+      },
+      "timeout_seconds": 30,
+      "created": 1749034166.2916465,
+      "generated_at": 1749034166.2916424,
+      "generator_version": "1.0",
+      "id": 62
+    },
+    {
+      "name": "Multiplication Function Test (invalid syntax)",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to compute multiplication of two values, checking for correct function calls and syntax.",
+      "inputs": {
+        "val1": "hello",
+        "val2": 5
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": {
+        "expected": [
+          {
+            "status": "true",
+            "description": "The multiplication should be successful, and the value returned is twice the first input."
+          }
+        ]
+      },
+      "timeout_seconds": 30,
+      "generated_at": 1749034190.6420007,
+      "generator_version": "1.0",
+      "id": 63,
+      "created": 1749034190.6420045
+    },
+    {
+      "name": "Multiplication System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test case to evaluate a system's ability to compute multiplication of two inputs with optional defaults.",
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": [
+        {
+          "status": "true",
+          "description": "The multiplication should be successful, and the value returned is twice the first input."
+        }
+      ],
+      "timeout_seconds": 30,
+      "generated_at": 1749034201.3277607,
+      "generator_version": "1.0",
+      "id": 64,
+      "details": {
+        "failure": "invalid syntax (<string>, line 1)"
+      },
+      "created": 1749034201.3277647
+    },
+    {
+      "name": "Multiplication Function Test (invalid syntax)",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to compute multiplication of two values, checking for correct function calls and syntax.",
+      "inputs": {
+        "val1": "hello",
+        "val2": 5
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": {
+        "expected": [
+          {
+            "status": "true",
+            "description": "The multiplication should be successful, and the value returned is twice the first input."
+          }
+        ]
+      },
+      "timeout_seconds": 30,
+      "created": 1749034214.4177487,
+      "generated_at": 1749034214.4177444,
+      "generator_version": "1.0",
+      "id": 65
+    },
+    {
+      "name": "Integer Addition System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test case for evaluating a system that adds two numbers with optional defaults.",
+      "inputs": {
+        "val1": 5,
+        "val2": "hello"
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": [
+        {
+          "status": "false",
+          "description": "The addition should be successful, and the value returned is the sum of val1 and val2."
+        }
+      ],
+      "timeout_seconds": 30,
+      "generated_at": 1749034232.059866,
+      "details": {
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      },
+      "created": 1749034232.0598707,
+      "generator_version": "1.0",
+      "id": 66
+    },
+    {
+      "name": "Multiplication Function Test (invalid syntax)",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to compute multiplication of two values, checking for correct function calls and syntax.",
+      "inputs": {
+        "val1": "hello",
+        "val2": 5
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": [
+        {
+          "status": "false",
+          "description": "The multiplication should be successful, and the value returned is twice the first input."
+        }
+      ],
+      "timeout_seconds": 30,
+      "generated_at": 1749035109.870225,
+      "details": {
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      },
+      "created": 1749035109.8702312,
+      "generator_version": "1.0",
+      "id": 67
+    },
+    {
+      "name": "Multiplication Function Test (invalid syntax)",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to compute multiplication of two values, checking for correct function calls and syntax.",
+      "inputs": {
+        "val1": "hello",
+        "val2": 5
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": [
+        {
+          "status": "false",
+          "description": "The multiplication should be successful, and the value returned is twice the first input."
+        }
+      ],
+      "failure_reasons": [
+        {
+          "reason": "invalid syntax (<string>, line 1)"
+        },
+        {
+          "reason": "invalid syntax (<string>, line 1)"
+        },
+        {
+          "reason": "invalid syntax (<string>, line 1)"
+        },
+        {
+          "reason": "invalid syntax (<string>, line 1)"
+        }
+      ],
+      "details": {
+        "failure_explanations": [
+          "The function test_function has invalid syntax in multiple places. The code provided is not functioning correctly as it lacks proper indentation and semicolon placement.",
+          "The function test_function has invalid syntax in multiple places. The code provided is not functioning correctly as it lacks proper indentation and semicolon placement.",
+          "The function test_function has invalid syntax in multiple places. The code provided is not functioning correctly as it lacks proper indentation and semicolon placement.",
+          "The function test_function has invalid syntax in multiple places. The code provided is not functioning correctly as it lacks proper indentation and semicolon placement."
+        ]
+      },
+      "created": 1749035120.0576682,
+      "generator_version": "1.0",
+      "id": 68,
+      "generated_at": 1749035120.057662
+    },
+    {
+      "name": "Multiplication Function Test (invalid syntax)",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to compute multiplication of two values, checking for correct function calls and syntax.",
+      "inputs": {
+        "val1": "hello",
+        "val2": 5
+      },
+      "code": "def test_function(value):\n    # Simple integration test that will pass\n    return value * 2\n",
+      "success_criteria": "output == value * 2",
+      "failure_reasons": [
+        {
+          "reason": "invalid syntax (<string>, line 1)"
+        },
+        {
+          "reason": "invalid syntax (<string>, line 1)"
+        },
+        {
+          "reason": "invalid syntax (<string>, line 1)"
+        },
+        {
+          "reason": "invalid syntax (<string>, line 1)"
+        }
+      ],
+      "details": {
+        "failure_explanations": [
+          "The function test_function has invalid syntax in multiple places. The code provided is not functioning correctly as it lacks proper indentation and semicolon placement.",
+          "The function test_function has invalid syntax in multiple places. The code provided is not functioning correctly as it lacks proper indentation and semicolon placement.",
+          "The function test_function has invalid syntax in multiple places. The code provided is not functioning correctly as it lacks proper indentation and semicolon placement.",
+          "The function test_function has invalid syntax in multiple places. The code provided is not functioning correctly as it lacks proper indentation and semicolon placement."
+        ]
+      },
+      "created": 1749035127.413342,
+      "generator_version": "1.0",
+      "id": 69,
+      "generated_at": 1749035120.057662,
+      "is_fixed_version": true,
+      "original_id": 68
+    },
+    {
+      "name": "Fallback System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749035133.9679928,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 70,
+      "created": 1749035133.9679997
+    },
+    {
+      "name": "Fallback System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749035133.9679928,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 71,
+      "created": 1749035142.0687723,
+      "is_fixed_version": true,
+      "original_id": 70
+    },
+    {
+      "name": "Multiplication Function Test (valid inputs)",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to compute multiplication of two values, checking for correct function calls and syntax.",
+      "inputs": {
+        "val1": "hello",
+        "val2": 5
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": [
+        {
+          "status": "false",
+          "description": "The multiplication should be successful, and the value returned is twice the first input."
+        }
+      ],
+      "failure_reasons": [
+        "invalid syntax (<string>, line 1)"
+      ],
+      "details": {
+        "failure_explanations": [
+          "The function test_function has invalid syntax in multiple places. The code provided is not functioning correctly as it lacks proper indentation and semicolon placement."
+        ]
+      },
+      "created": 1749036060.1066053,
+      "generator_version": "1.0",
+      "id": 72,
+      "generated_at": 1749036060.1065986,
+      "is_fixed_version": true,
+      "original_id": 68
+    },
+    {
+      "name": "Multiplication Function Test (valid inputs)",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to compute multiplication of two values, checking for correct function calls and syntax.",
+      "inputs": {
+        "val1": "hello",
+        "val2": 5
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": [
+        {
+          "status": "false",
+          "description": "The multiplication should be successful, and the value returned is twice the first input."
+        }
+      ],
+      "failure_reasons": [
+        "Invalid multiplication syntax due to non-numeric input (string 'hello')",
+        "Incorrect multiplication syntax causing invalid result"
+      ],
+      "details": {
+        "failure_explanations": [
+          "The function test_function has multiple invalid syntax issues. The code provided is not functioning correctly as it lacks proper indentation and semicolon placement."
+        ]
+      },
+      "created": 1749036089.4131963,
+      "generator_version": "1.0",
+      "id": 73,
+      "generated_at": 1749036089.4131896
+    },
+    {
+      "name": "Multiplication Function Test (valid numbers input)",
+      "type": "integration",
+      "complexity": "medium",
+      "description": "A test to evaluate a system's ability to compute multiplication of two values, checking for proper function calls and syntax validation.",
+      "inputs": {
+        "val1": "hello",
+        "val2": 5
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": [
+        {
+          "status": "false",
+          "description": "The multiplication should be successful, and the value returned is twice the first input."
+        },
+        {
+          "status": "true",
+          "description": "The system handles string input correctly (invalid syntax expected) for val1."
+        }
+      ],
+      "failure_reasons": [
+        "Syntax errors due to non-numeric inputs in function arguments.",
+        "Invalid multiplication syntax causing invalid result"
+      ],
+      "details": {
+        "failure_explanations": [
+          "The function test_function has multiple invalid syntax issues. The code provided is not functioning correctly as it lacks proper indentation and semicolon placement."
+        ]
+      },
+      "created": 1749036099.1124663,
+      "generator_version": "1.0",
+      "id": 74,
+      "generated_at": 1749036099.112461
+    },
+    {
+      "name": "Multiplication Function Test (basic input)",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to compute basic multiplication of two values with proper function calls and syntax.",
+      "inputs": {
+        "val1": "hello",
+        "val2": 5
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": [
+        {
+          "status": "false",
+          "description": "The multiplication should be successful, and the value returned is twice the first input."
+        }
+      ],
+      "timeout_seconds": 30,
+      "details": {
+        "failure_explanations": [
+          "The function test_function has invalid syntax in multiple places. The code provided is not functioning correctly as it lacks proper indentation and semicolon placement."
+        ]
+      },
+      "generated_at": 1749036135.8038533,
+      "generator_version": "1.0",
+      "original_id": 70,
+      "id": 75,
+      "created": 1749036135.8038578
+    },
+    {
+      "name": "Multiplication Function Test (basic inputs)",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A test to evaluate a system's ability to multiply two values, checking for proper function calls and syntax validation.",
+      "inputs": {
+        "val1": "hello",
+        "val2": 5
+      },
+      "code": "def test_function(val1, val2=\"default\":): \n  return 'Valid inputs:', [val1] if both are provided; else null\n\ntest_function(5), print('Result:', result)",
+      "success_criteria": [
+        {
+          "status": "false",
+          "description": "The multiplication should be successful, and the value returned is twice the first input."
+        },
+        {
+          "status": "true",
+          "description": "The system handles string input correctly (invalid syntax expected) for val1."
+        }
+      ],
+      "failure_reasons": [
+        "Invalid multiplication syntax due to non-numeric input (string 'hello')",
+        "Incorrect multiplication syntax causing invalid result"
+      ],
+      "details": {
+        "failure_explanations": [
+          "The function test_function has multiple invalid syntax issues. The code provided is not functioning correctly as it lacks proper indentation and semicolon placement."
+        ]
+      },
+      "created": 1749036146.5956264,
+      "generator_version": "1.0",
+      "id": 76,
+      "generated_at": 1749036146.5956216
+    },
+    {
+      "name": "Fallback System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749036158.6197627,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 77,
+      "created": 1749036158.6197698
+    },
+    {
+      "name": "Fallback System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749036158.6197627,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 78,
+      "created": 1749036160.6401603,
+      "is_fixed_version": true,
+      "original_id": 77
+    },
+    {
+      "name": "Fallback Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749036669.2066717,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 79,
+      "created": 1749036669.2066784
+    },
+    {
+      "name": "Fallback Integration Test",
+      "type": "integration",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value): return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749036669.2066717,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 80,
+      "created": 1749036680.309789,
+      "is_fixed_version": true,
+      "original_id": 79
+    },
+    {
+      "name": "Fallback System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749037056.269799,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 81,
+      "created": 1749037056.269807
+    },
+    {
+      "name": "Fallback System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749037056.269799,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 82,
+      "created": 1749037058.2893047,
+      "is_fixed_version": true,
+      "original_id": 81
+    },
+    {
+      "name": "Check Even Numbers System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "Test whether the system can determine if a number is even and handle accordingly.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value): \n    if value % 2 == 0: \n        return value * 2 \n    else: \n        return value + 1",
+      "success_criteria": "The system should handle both cases where the number is even or odd correctly within 30 seconds.",
+      "timeout_seconds": 30,
+      "generated_at": 1749037580.980519,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 83,
+      "created": 1749037580.9805253,
+      "is_fixed_version": true,
+      "original_id": 82
+    },
+    {
+      "name": "Check Even Numbers System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "Test whether the system can determine if a number is even and handle accordingly.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    # Simple integration test that will pass\n    return value * 2\n",
+      "success_criteria": "output == value * 2",
+      "timeout_seconds": 30,
+      "generated_at": 1749037580.980519,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 84,
+      "created": 1749037598.8275428,
+      "is_fixed_version": true,
+      "original_id": 83
+    },
+    {
+      "name": "Check Even Numbers System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "Test whether the system can determine if a number is even and handle accordingly.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    # Simple integration test that will pass\n    return value * 2\n",
+      "success_criteria": "output == value * 2",
+      "timeout_seconds": 30,
+      "generated_at": 1749037580.980519,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 85,
+      "created": 1749037632.1196733,
+      "is_fixed_version": true,
+      "original_id": 83
+    },
+    {
+      "name": "Check Even Numbers System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "Test whether the system can determine if a number is even and handle accordingly.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    # Simple integration test that will pass\n    return value * 2\n",
+      "success_criteria": "output == value * 2",
+      "timeout_seconds": 30,
+      "generated_at": 1749037580.980519,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 86,
+      "created": 1749037652.851798,
+      "is_fixed_version": true,
+      "original_id": 83
+    },
+    {
+      "name": "Check Even Numbers System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "Test whether the system can determine if a number is even and handle accordingly.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    # Simple integration test that will pass\n    return value * 2\n",
+      "success_criteria": "output == value * 2",
+      "timeout_seconds": 30,
+      "generated_at": 1749037580.980519,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 87,
+      "created": 1749037683.2635663,
+      "is_fixed_version": true,
+      "original_id": 83
+    },
+    {
+      "name": "Check Even Numbers System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "Test whether the system can determine if a number is even and handle accordingly.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    # Simple integration test that will pass\n    return value * 2\n",
+      "success_criteria": "output == value * 2",
+      "timeout_seconds": 30,
+      "generated_at": 1749037580.980519,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 88,
+      "created": 1749037703.7027006,
+      "is_fixed_version": true,
+      "original_id": 83
+    },
+    {
+      "name": "Check Even Numbers System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "Test whether the system can determine if a number is even and handle accordingly.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    # Simple integration test that will pass\n    return value * 2",
+      "success_criteria": "output == value * 2",
+      "timeout_seconds": 30,
+      "generated_at": 1749037709.1048608,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "original_id": 84,
+      "id": 89,
+      "created": 1749037709.1048653
+    },
+    {
+      "name": "Check Even Numbers System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "Test whether the system can determine if a number is even and handle accordingly.",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    # Simple integration test that will pass\n    return value * 2",
+      "success_criteria": "output == value * 2",
+      "timeout_seconds": 30,
+      "generated_at": 1749037709.1048608,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "original_id": 89,
+      "id": 90,
+      "created": 1749037711.124839,
+      "is_fixed_version": true
+    },
+    {
+      "name": "Check Even Numbers System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "Test whether the system correctly determines if a number is even and doubles it.",
+      "inputs": {
+        "value": 15
+      },
+      "code": "def test_function(value):\\n    # Simple integration test that will pass\\n    return value * 2",
+      "success_criteria": "output == value * 2",
+      "timeout_seconds": 30,
+      "generated_at": 1749037719.1628757,
+      "generator_version": "1.0",
+      "id": 91,
+      "created": 1749037719.1628802
+    },
+    {
+      "name": "Check Even Numbers System Test",
+      "type": "system",
+      "complexity": "beginner",
+      "description": "Test whether the system correctly determines if a number is even and doubles it.",
+      "inputs": {
+        "value": 15
+      },
+      "code": "def test_function(value):\n    # Simple integration test that will pass\n    return value * 2",
+      "success_criteria": "output == value * 2",
+      "timeout_seconds": 30,
+      "generated_at": 1749037719.1628757,
+      "generator_version": "1.0",
+      "id": 92,
+      "created": 1749037741.998933,
+      "is_fixed_version": true,
+      "original_id": 91
+    },
+    {
+      "name": "Fallback Performance Test",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749037799.4984345,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 93,
+      "created": 1749037799.4984431
+    },
+    {
+      "name": "Fallback Performance Test",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value << 1",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749037799.4984345,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 94,
+      "created": 1749037803.5099018,
+      "is_fixed_version": true,
+      "original_id": 93
+    }
+  ],
+  "results": {
+    "12": [
+      {
+        "test_id": "12",
+        "passed": false,
+        "timestamp": 1749028869.6014347,
+        "execution_time": 0.002667665481567383,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "13": [
+      {
+        "test_id": "13",
+        "passed": false,
+        "timestamp": 1749028913.0344126,
+        "execution_time": 0.000392913818359375,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "14": [
+      {
+        "test_id": "14",
+        "passed": false,
+        "timestamp": 1749028955.0169032,
+        "execution_time": 0.00033855438232421875,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "15": [
+      {
+        "test_id": "15",
+        "passed": false,
+        "timestamp": 1749028999.954513,
+        "execution_time": 0.00034928321838378906,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "16": [
+      {
+        "test_id": "16",
+        "passed": false,
+        "timestamp": 1749029042.1046457,
+        "execution_time": 0.0003418922424316406,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "17": [
+      {
+        "test_id": "17",
+        "passed": true,
+        "timestamp": 1749029083.8009877,
+        "execution_time": 0.0009317398071289062,
+        "output": "No main function found. Module state: {'__name__': 'test_module', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': ModuleSpec(name='test_module', loader=None), '__builtins__': {'__name__': 'builtins', '__doc__': \"Built-in functions, types, exceptions, and other objects.\\n\\nThis module provides direct access to all 'built-in'\\nidentifiers of Python; for example, builtins.len is\\nthe full name for the built-in function len().\\n\\nThis module is not normally accessed explicitly by most\\napplications, but can be useful in modules that provide\\nobjects with the same name as a built-in value, but in\\nwhich the built-in of that name is also needed.\", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>, origin='built-in'), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'breakpoint': <built-in function breakpoint>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'aiter': <built-in function aiter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'anext': <built-in function anext>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'BaseExceptionGroup': <class 'BaseExceptionGroup'>, 'Exception': <class 'Exception'>, 'GeneratorExit': <class 'GeneratorExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'SystemExit': <class 'SystemExit'>, 'ArithmeticError': <class 'ArithmeticError'>, 'AssertionError': <class 'AssertionError'>, 'AttributeError': <class 'AttributeError'>, 'BufferError': <class 'BufferError'>, 'EOFError': <class 'EOFError'>, 'ImportError': <class 'ImportError'>, 'LookupError': <class 'LookupError'>, 'MemoryError': <class 'MemoryError'>, 'NameError': <class 'NameError'>, 'OSError': <class 'OSError'>, 'ReferenceError': <class 'ReferenceError'>, 'RuntimeError': <class 'RuntimeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'SyntaxError': <class 'SyntaxError'>, 'SystemError': <class 'SystemError'>, 'TypeError': <class 'TypeError'>, 'ValueError': <class 'ValueError'>, 'Warning': <class 'Warning'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'BytesWarning': <class 'BytesWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'EncodingWarning': <class 'EncodingWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'UserWarning': <class 'UserWarning'>, 'BlockingIOError': <class 'BlockingIOError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionError': <class 'ConnectionError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'InterruptedError': <class 'InterruptedError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'IndentationError': <class 'IndentationError'>, '_IncompleteInputError': <class '_IncompleteInputError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'PythonFinalizationError': <class 'PythonFinalizationError'>, 'RecursionError': <class 'RecursionError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'UnicodeError': <class 'UnicodeError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'TabError': <class 'TabError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'ExceptionGroup': <class 'ExceptionGroup'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'copyright': Copyright (c) 2001-2024 Python Software Foundation.\nAll Rights Reserved.\n\nCopyright (c) 2000 BeOpen.com.\nAll Rights Reserved.\n\nCopyright (c) 1995-2001 Corporation for National Research Initiatives.\nAll Rights Reserved.\n\nCopyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.\nAll Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen, Zope Corporation, the Python Software\n    Foundation, and a cast of thousands for supporting Python\n    development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object.}}",
+        "details": {
+          "module_vars": "dict_keys(['__name__', '__doc__', '__package__', '__loader__', '__spec__', '__builtins__'])"
+        }
+      }
+    ],
+    "18": [
+      {
+        "test_id": "18",
+        "passed": false,
+        "timestamp": 1749029124.2112067,
+        "execution_time": 0.00039196014404296875,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "20": [
+      {
+        "test_id": "20",
+        "passed": false,
+        "timestamp": 1749030200.5406847,
+        "execution_time": 0.00025725364685058594,
+        "output": "['123', 'Hello', '123', 'Hello']",
+        "details": {
+          "module_vars": "dict_keys(['__name__', '__doc__', '__package__', '__loader__', '__spec__', '__builtins__', 'test_function', 'output'])"
+        },
+        "failure_reason": "Output did not meet success criteria: Return a string that shows the input value and the result after multiplication."
+      }
+    ],
+    "21": [
+      {
+        "test_id": "21",
+        "passed": false,
+        "timestamp": 1749030244.5378225,
+        "execution_time": 0.0002086162567138672,
+        "output": "{'system_manager': <core.system_manager.SystemManager object at 0x707c6c1b4730>, 'inputs': {'value': 10}, 'test_function': <function test_function at 0x707c5ab62e80>, 'output': {...}}",
+        "details": {},
+        "failure_reason": "System test did not meet criteria: Result should be twice the input value"
+      }
+    ],
+    "22": [
+      {
+        "test_id": "22",
+        "passed": false,
+        "timestamp": 1749030542.22759,
+        "execution_time": 0.0001685619354248047,
+        "output": "{'system_manager': <core.system_manager.SystemManager object at 0x7a1c931d1630>, 'inputs': {'value': 10}, 'test_function': <function test_function at 0x7a1c89b46340>, 'output': {...}}",
+        "details": {},
+        "failure_reason": "System test did not meet criteria: Result should be twice the input value"
+      }
+    ],
+    "23": [
+      {
+        "test_id": "23",
+        "passed": false,
+        "timestamp": 1749030590.0892866,
+        "execution_time": 0.0006804466247558594,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "24": [
+      {
+        "test_id": "24",
+        "passed": false,
+        "timestamp": 1749030630.9828322,
+        "execution_time": 0.00038623809814453125,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "25": [
+      {
+        "test_id": "25",
+        "passed": false,
+        "timestamp": 1749030673.203693,
+        "execution_time": 2.002716064453125e-05,
+        "failure_reason": "'list' object has no attribute 'get'",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/j/Desktop/code/groksai/agents/tester.py\", line 125, in _run_single_test\n    test_result = self._run_performance_test(test)\n  File \"/home/j/Desktop/code/groksai/agents/tester.py\", line 277, in _run_performance_test\n    iterations = inputs.get(\"iterations\", 1)\n                 ^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'get'\n"
+      }
+    ],
+    "26": [
+      {
+        "test_id": "26",
+        "passed": false,
+        "timestamp": 1749030901.2718475,
+        "execution_time": 0.0029137134552001953,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "27": [
+      {
+        "test_id": "27",
+        "passed": false,
+        "timestamp": 1749030912.804228,
+        "execution_time": 0.0005240440368652344,
+        "output": null,
+        "details": {},
+        "failure_reason": "name 'x' is not defined"
+      }
+    ],
+    "28": [
+      {
+        "test_id": "28",
+        "passed": false,
+        "timestamp": 1749031405.5345979,
+        "execution_time": 0.00279998779296875,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "29": [
+      {
+        "test_id": "29",
+        "passed": false,
+        "timestamp": 1749031418.837676,
+        "execution_time": 0.0026836395263671875,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "30": [
+      {
+        "test_id": "30",
+        "passed": false,
+        "timestamp": 1749031429.6333485,
+        "execution_time": 0.0005035400390625,
+        "output": null,
+        "details": {},
+        "failure_reason": "name 'value1' is not defined"
+      }
+    ],
+    "31": [
+      {
+        "test_id": "31",
+        "passed": false,
+        "timestamp": 1749031446.8256218,
+        "execution_time": 0.00039267539978027344,
+        "output": null,
+        "details": {},
+        "failure_reason": "name 'a' is not defined"
+      }
+    ],
+    "32": [
+      {
+        "test_id": "32",
+        "passed": false,
+        "timestamp": 1749031458.8621302,
+        "execution_time": 0.00038814544677734375,
+        "output": null,
+        "details": {},
+        "failure_reason": "parameter without a default follows parameter with a default (<string>, line 1)"
+      }
+    ],
+    "33": [
+      {
+        "test_id": "33",
+        "passed": false,
+        "timestamp": 1749031518.5259688,
+        "execution_time": 0.0003991127014160156,
+        "output": null,
+        "details": {},
+        "failure_reason": "expected 'else' after 'if' expression (<string>, line 1)"
+      }
+    ],
+    "34": [
+      {
+        "test_id": "34",
+        "passed": false,
+        "timestamp": 1749031530.3080373,
+        "execution_time": 0.00038623809814453125,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "35": [
+      {
+        "test_id": "35",
+        "passed": false,
+        "timestamp": 1749031545.0850086,
+        "execution_time": 0.00037169456481933594,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "36": [
+      {
+        "test_id": "36",
+        "passed": false,
+        "timestamp": 1749031554.9236646,
+        "execution_time": 0.000438690185546875,
+        "output": null,
+        "details": {},
+        "failure_reason": "expected 'else' after 'if' expression (<string>, line 1)"
+      }
+    ],
+    "37": [
+      {
+        "test_id": "37",
+        "passed": false,
+        "timestamp": 1749031564.3346338,
+        "execution_time": 0.0004029273986816406,
+        "output": null,
+        "details": {},
+        "failure_reason": "expected 'else' after 'if' expression (<string>, line 1)"
+      }
+    ],
+    "38": [
+      {
+        "test_id": "38",
+        "passed": false,
+        "timestamp": 1749031599.47912,
+        "execution_time": 0.0003688335418701172,
+        "output": null,
+        "details": {},
+        "failure_reason": "expected 'else' after 'if' expression (<string>, line 1)"
+      }
+    ],
+    "39": [
+      {
+        "test_id": "39",
+        "passed": false,
+        "timestamp": 1749031610.922214,
+        "execution_time": 0.0003364086151123047,
+        "output": null,
+        "details": {},
+        "failure_reason": "expected 'else' after 'if' expression (<string>, line 1)"
+      }
+    ],
+    "40": [
+      {
+        "test_id": "40",
+        "passed": false,
+        "timestamp": 1749031626.3758328,
+        "execution_time": 0.000438690185546875,
+        "output": null,
+        "details": {},
+        "failure_reason": "expected 'else' after 'if' expression (<string>, line 1)"
+      }
+    ],
+    "41": [
+      {
+        "test_id": "41",
+        "passed": false,
+        "timestamp": 1749031635.6535938,
+        "execution_time": 0.0004169940948486328,
+        "output": null,
+        "details": {},
+        "failure_reason": "test_function() got an unexpected keyword argument 'value'"
+      }
+    ],
+    "42": [
+      {
+        "test_id": "42",
+        "passed": false,
+        "timestamp": 1749033238.3222146,
+        "execution_time": 0.0008499622344970703,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "unterminated string literal (detected at line 1) (<string>, line 1)"
+      }
+    ],
+    "43": [
+      {
+        "test_id": "43",
+        "passed": false,
+        "timestamp": 1749033329.699967,
+        "execution_time": 0.0006549358367919922,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "expected 'else' after 'if' expression (<string>, line 1)"
+      }
+    ],
+    "44": [
+      {
+        "test_id": "44",
+        "passed": false,
+        "timestamp": 1749033359.6376536,
+        "execution_time": 0.0005517005920410156,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "expected 'else' after 'if' expression (<string>, line 1)"
+      }
+    ],
+    "45": [
+      {
+        "test_id": "45",
+        "passed": false,
+        "timestamp": 1749033426.0447552,
+        "execution_time": 0.0004208087921142578,
+        "output": 20,
+        "details": {
+          "type": "function_test"
+        },
+        "failure_reason": "Output did not meet success criteria: Result should be twice the input value"
+      }
+    ],
+    "46": [
+      {
+        "test_id": "46",
+        "passed": false,
+        "timestamp": 1749033483.5704882,
+        "execution_time": 0.0009126663208007812,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "expected 'else' after 'if' expression (<string>, line 2)"
+      }
+    ],
+    "47": [
+      {
+        "test_id": "47",
+        "passed": false,
+        "timestamp": 1749033911.3094807,
+        "execution_time": 0.0008223056793212891,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "expected 'else' after 'if' expression (<string>, line 2)"
+      }
+    ],
+    "48": [
+      {
+        "test_id": "48",
+        "passed": false,
+        "timestamp": 1749033924.374311,
+        "execution_time": 0.00014090538024902344,
+        "output": "{'system_manager': <core.system_manager.SystemManager object at 0x70127b46cff0>, 'inputs': {'value': 10}, 'test_function': <function test_function at 0x701271c09260>, 'output': {...}}",
+        "details": {},
+        "failure_reason": "System test did not meet criteria: Result should be twice the input value"
+      }
+    ],
+    "49": [
+      {
+        "test_id": "49",
+        "passed": false,
+        "timestamp": 1749033937.083144,
+        "execution_time": 0.00041675567626953125,
+        "output": null,
+        "details": {},
+        "failure_reason": "expected 'else' after 'if' expression (<string>, line 2)"
+      }
+    ],
+    "50": [
+      {
+        "test_id": "50",
+        "passed": false,
+        "timestamp": 1749033950.689982,
+        "execution_time": 0.0005562305450439453,
+        "output": null,
+        "details": {},
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "51": [
+      {
+        "test_id": "51",
+        "passed": false,
+        "timestamp": 1749033962.2552323,
+        "execution_time": 0.0004849433898925781,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "52": [
+      {
+        "test_id": "52",
+        "passed": false,
+        "timestamp": 1749033988.3095586,
+        "execution_time": 0.00022673606872558594,
+        "output": {
+          "total_time": 1.9550323486328125e-05,
+          "average_time": 1.9550323486328125e-05,
+          "iterations": 1,
+          "results": [
+            {
+              "iteration": 0,
+              "time": 6.9141387939453125e-06,
+              "output": "20"
+            }
+          ]
+        },
+        "details": {
+          "average_time": 1.9550323486328125e-05,
+          "total_time": 1.9550323486328125e-05
+        },
+        "failure_reason": "Performance did not meet criteria: Result should be twice the input value"
+      }
+    ],
+    "53": [
+      {
+        "test_id": "53",
+        "passed": false,
+        "timestamp": 1749033997.4688842,
+        "execution_time": 0.0005016326904296875,
+        "output": null,
+        "details": {},
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "54": [
+      {
+        "test_id": "54",
+        "passed": false,
+        "timestamp": 1749034039.0399551,
+        "execution_time": 0.0003745555877685547,
+        "output": null,
+        "details": {},
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "55": [
+      {
+        "test_id": "55",
+        "passed": false,
+        "timestamp": 1749034049.535486,
+        "execution_time": 0.0005884170532226562,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "56": [
+      {
+        "test_id": "56",
+        "passed": false,
+        "timestamp": 1749034061.5570178,
+        "execution_time": 0.0005209445953369141,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "57": [
+      {
+        "test_id": "57",
+        "passed": false,
+        "timestamp": 1749034071.9048305,
+        "execution_time": 0.0004544258117675781,
+        "output": null,
+        "details": {},
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "58": [
+      {
+        "test_id": "58",
+        "passed": false,
+        "timestamp": 1749034090.988663,
+        "execution_time": 0.0004267692565917969,
+        "output": null,
+        "details": {},
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "59": [
+      {
+        "test_id": "59",
+        "passed": false,
+        "timestamp": 1749034103.065289,
+        "execution_time": 0.00041604042053222656,
+        "output": 20,
+        "details": {
+          "type": "function_test"
+        },
+        "failure_reason": "Output did not meet success criteria: Result should be twice the input value"
+      }
+    ],
+    "60": [
+      {
+        "test_id": "60",
+        "passed": false,
+        "timestamp": 1749034131.5266435,
+        "execution_time": 0.0004019737243652344,
+        "output": null,
+        "details": {},
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "61": [
+      {
+        "test_id": "61",
+        "passed": false,
+        "timestamp": 1749034143.0339592,
+        "execution_time": 0.00037169456481933594,
+        "output": null,
+        "details": {},
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "62": [
+      {
+        "test_id": "62",
+        "passed": false,
+        "timestamp": 1749034167.3001997,
+        "execution_time": 0.0004487037658691406,
+        "output": null,
+        "details": {},
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "63": [
+      {
+        "test_id": "63",
+        "passed": false,
+        "timestamp": 1749034191.649861,
+        "execution_time": 0.0004343986511230469,
+        "output": null,
+        "details": {},
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "64": [
+      {
+        "test_id": "64",
+        "passed": false,
+        "timestamp": 1749034202.3358376,
+        "execution_time": 0.0004239082336425781,
+        "output": null,
+        "details": {},
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "65": [
+      {
+        "test_id": "65",
+        "passed": false,
+        "timestamp": 1749034215.4254444,
+        "execution_time": 0.0003974437713623047,
+        "output": null,
+        "details": {},
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "67": [
+      {
+        "test_id": "67",
+        "passed": false,
+        "timestamp": 1749035110.8787794,
+        "execution_time": 0.0008747577667236328,
+        "output": null,
+        "details": {},
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "68": [
+      {
+        "test_id": "68",
+        "passed": false,
+        "timestamp": 1749035121.0661438,
+        "execution_time": 0.0005526542663574219,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "70": [
+      {
+        "test_id": "70",
+        "passed": false,
+        "timestamp": 1749035134.9762304,
+        "execution_time": 0.0001201629638671875,
+        "output": "{'system_manager': <core.system_manager.SystemManager object at 0x7772a0775130>, 'inputs': {'value': 10}, 'test_function': <function test_function at 0x77729c218540>, 'output': {...}}",
+        "details": {},
+        "failure_reason": "System test did not meet criteria: Result should be twice the input value"
+      }
+    ],
+    "72": [
+      {
+        "test_id": "72",
+        "passed": false,
+        "timestamp": 1749036061.1150753,
+        "execution_time": 0.0008034706115722656,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "73": [
+      {
+        "test_id": "73",
+        "passed": false,
+        "timestamp": 1749036090.4225159,
+        "execution_time": 0.0008792877197265625,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "74": [
+      {
+        "test_id": "74",
+        "passed": false,
+        "timestamp": 1749036100.12111,
+        "execution_time": 0.0004825592041015625,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "75": [
+      {
+        "test_id": "75",
+        "passed": false,
+        "timestamp": 1749036136.812854,
+        "execution_time": 0.0004994869232177734,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "76": [
+      {
+        "test_id": "76",
+        "passed": false,
+        "timestamp": 1749036147.6052248,
+        "execution_time": 0.00046324729919433594,
+        "output": null,
+        "details": {
+          "type": "execution_error"
+        },
+        "failure_reason": "invalid syntax (<string>, line 1)"
+      }
+    ],
+    "77": [
+      {
+        "test_id": "77",
+        "passed": false,
+        "timestamp": 1749036159.6296926,
+        "execution_time": 0.00013589859008789062,
+        "output": "{'system_manager': <core.system_manager.SystemManager object at 0x78f60e571450>, 'inputs': {'value': 10}, 'test_function': <function test_function at 0x78f604f52de0>, 'output': {...}}",
+        "details": {},
+        "failure_reason": "System test did not meet criteria: Result should be twice the input value"
+      }
+    ],
+    "79": [
+      {
+        "test_id": "79",
+        "passed": false,
+        "timestamp": 1749036670.2153373,
+        "execution_time": 0.0005590915679931641,
+        "output": 20,
+        "details": {
+          "type": "function_test"
+        },
+        "failure_reason": "Output did not meet success criteria: Result should be twice the input value"
+      }
+    ],
+    "81": [
+      {
+        "test_id": "81",
+        "passed": false,
+        "timestamp": 1749037057.2786226,
+        "execution_time": 0.00017142295837402344,
+        "output": "{'system_manager': <core.system_manager.SystemManager object at 0x705d4dd756d0>, 'inputs': {'value': 10}, 'test_function': <function test_function at 0x705d447b7240>, 'output': {...}}",
+        "details": {},
+        "failure_reason": "System test did not meet criteria: Result should be twice the input value"
+      }
+    ],
+    "83": [
+      {
+        "test_id": "83",
+        "passed": false,
+        "timestamp": 1749037581.9889143,
+        "execution_time": 0.0001780986785888672,
+        "output": "{'system_manager': <core.system_manager.SystemManager object at 0x7c10ab8716d0>, 'inputs': {'value': 10}, 'test_function': <function test_function at 0x7c109a2db240>, 'output': {...}}",
+        "details": {},
+        "failure_reason": "System test did not meet criteria: The system should handle both cases where the number is even or odd correctly within 30 seconds."
+      }
+    ],
+    "89": [
+      {
+        "test_id": "89",
+        "passed": false,
+        "timestamp": 1749037710.1140547,
+        "execution_time": 0.0001437664031982422,
+        "output": "{'system_manager': <core.system_manager.SystemManager object at 0x7c10ab8716d0>, 'inputs': {'value': 10}, 'test_function': <function test_function at 0x7c109a34a200>, 'output': {...}}",
+        "details": {},
+        "failure_reason": "System test did not meet criteria: output == value * 2"
+      }
+    ],
+    "91": [
+      {
+        "test_id": "91",
+        "passed": false,
+        "timestamp": 1749037720.1735299,
+        "execution_time": 0.0007338523864746094,
+        "output": null,
+        "details": {},
+        "failure_reason": "unexpected character after line continuation character (<string>, line 1)"
+      }
+    ],
+    "93": [
+      {
+        "test_id": 93,
+        "passed": false,
+        "timestamp": 1749037800.5080047,
+        "execution_time": 0.00019359588623046875,
+        "output": {
+          "total_time": 1.1205673217773438e-05,
+          "average_time": 1.1205673217773438e-05,
+          "iterations": 1,
+          "results": [
+            {
+              "iteration": 0,
+              "time": 4.291534423828125e-06,
+              "output": "20"
+            }
+          ]
+        },
+        "details": {
+          "average_time": 1.1205673217773438e-05,
+          "total_time": 1.1205673217773438e-05
+        },
+        "failure_reason": "Performance did not meet criteria: Result should be twice the input value"
+      }
+    ]
+  }
+}

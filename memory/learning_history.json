@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "agent": "monitor_main",
+      "agent_type": "monitor",
+      "action": "success",
+      "timestamp": "2025-06-04T03:26:50.353438",
+      "details": {
+        "task": "monitor_system",
+        "significant": true,
+        "details": {
+          "status": "critical",
+          "alert_count": 2,
+          "maintenance_actions": 0
+        }
+      }
+    }
+  ]
+}
