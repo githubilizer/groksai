@@ -227,7 +227,12 @@ class MainWindow(QMainWindow):
         self.stop_button.clicked.connect(self.stop_system)
         self.stop_button.setEnabled(False)  # Disabled until system is started
         control_layout.addWidget(self.stop_button)
-        
+
+        # Reset Training button
+        self.reset_training_button = QPushButton("Reset Training")
+        self.reset_training_button.clicked.connect(self.reset_training)
+        control_layout.addWidget(self.reset_training_button)
+
         # Add spacer to push buttons to the left
         control_layout.addStretch()
         
@@ -608,4 +613,14 @@ class MainWindow(QMainWindow):
         if self.system_manager:
             self.system_manager.reset_circuit_breakers()
             self.add_log_message("Circuit breakers manually reset. Agents will retry operations.")
-            self.status_panel.add_status_message("Circuit breakers reset") 
+            self.status_panel.add_status_message("Circuit breakers reset")
+
+    def reset_training(self):
+        """Reset all learned knowledge and tests"""
+        if self.system_manager:
+            if self.system_manager.memory.reset_training_data():
+                self.add_log_message("Training data wiped. Starting fresh.")
+                self.status_panel.add_status_message("Training reset")
+            else:
+                self.add_log_message("Failed to reset training data")
+                self.status_panel.add_status_message("Training reset failed")

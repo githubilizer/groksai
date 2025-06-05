@@ -235,4 +235,52 @@ class MemoryManager:
             return backup_dir
         except Exception as e:
             self.logger.error(f"Error creating backup: {e}")
-            return None 
+            return None
+
+    def reset_training_data(self):
+        """Wipe all learned knowledge and test history"""
+        try:
+            # Reset in-memory structures
+            self.knowledge_base = {"concepts": {}, "rules": [], "examples": []}
+            self.test_history = {"tests": [], "results": {}, "fixed_tests": {}}
+
+            # Remove action logs
+            actions_dir = os.path.join(self.memory_dir, "actions")
+            for f in os.listdir(actions_dir):
+                try:
+                    os.remove(os.path.join(actions_dir, f))
+                except Exception:
+                    pass
+
+            # Remove cycle result files
+            cycles_dir = os.path.join(self.memory_dir, "cycles")
+            for f in os.listdir(cycles_dir):
+                if f.startswith("cycle_") and f.endswith(".json"):
+                    try:
+                        os.remove(os.path.join(cycles_dir, f))
+                    except Exception:
+                        pass
+
+            # Save cleared structures
+            self._save_knowledge_base()
+            self._save_test_history()
+
+            # Reset system state counters
+            state_path = os.path.join(self.memory_dir, "system_state.json")
+            state = {
+                "last_run": None,
+                "current_complexity_level": 1,
+                "total_tests_generated": 0,
+                "total_tests_passed": 0,
+                "total_tests_failed": 0,
+                "total_fixes_attempted": 0,
+                "total_fixes_succeeded": 0,
+            }
+            with open(state_path, "w") as f:
+                json.dump(state, f, indent=2)
+
+            self.logger.info("Training data reset")
+            return True
+        except Exception as e:
+            self.logger.error(f"Error resetting training data: {e}")
+            return False
