@@ -179,7 +179,7 @@ class SystemManager(QObject):
                     self.consecutive_error_cycles = 0
                 
                 # Health check via monitor
-                health_status = self.safe_execute(self.monitor, "check_health", fallback_result={"healthy": False, "issues": ["Monitor execution failed"]})
+                health_status = self.safe_execute(self.monitor, "check_health")
                 if not health_status or not health_status.get('healthy', False):
                     health_issues = health_status.get('issues', []) if health_status else ["Unknown health issues"]
                     # Extract message from each health issue (which are dictionaries)
@@ -218,7 +218,7 @@ class SystemManager(QObject):
                 # Generate a single test incrementally
                 self.log_message.emit(f"Generating incremental test batch (size: {self.test_batch_size})")
                 try:
-                    new_tests = self.safe_execute(self.test_generator, "generate_tests", count=self.test_batch_size, fallback_result=[])
+                    new_tests = self.safe_execute(self.test_generator, "generate_tests", count=self.test_batch_size)
                     
                     # Check if test generation was successful
                     if not new_tests or len(new_tests) == 0:
@@ -256,7 +256,7 @@ class SystemManager(QObject):
                 if new_tests and len(new_tests) > 0:
                     self.log_message.emit("Running incremental test batch")
                     try:
-                        test_results = self.safe_execute(self.tester, "run_tests", new_tests, fallback_result=[])
+                        test_results = self.safe_execute(self.tester, "run_tests", new_tests)
                         
                         # Check if test execution was successful
                         if not test_results or len(test_results) == 0:
@@ -311,7 +311,7 @@ class SystemManager(QObject):
                             
                             # Try to fix the failing tests
                             try:
-                                new_fixes = self.safe_execute(self.fixer, "fix_issues", still_failing, fallback_result=[])
+                                new_fixes = self.safe_execute(self.fixer, "fix_issues", still_failing)
                                 if new_fixes:
                                     fixes.extend(new_fixes)
                                 
@@ -391,6 +391,8 @@ class SystemManager(QObject):
                 else:
                     # No tests to execute, increase error counter
                     self.consecutive_error_cycles += 1
+                    # Initialize test_results to avoid UnboundLocalError
+                    test_results = []
                 
                 # Process any user requests
                 self.safe_execute(self.user_interface, "process_pending_requests")

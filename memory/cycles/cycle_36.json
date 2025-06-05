@@ -1,6 +1,35 @@
 {
-  "tests": null,
-  "results": null,
-  "timestamp": 1749049980.8753777,
+  "tests": [
+    {
+      "name": "Fallback Test",
+      "type": "function",
+      "complexity": "beginner",
+      "description": "A simple test generated when the model is unavailable",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "output == value * 2",
+      "timeout_seconds": 30,
+      "generated_at": 1749062950.1227503,
+      "generator_version": "1.0",
+      "id": 165,
+      "created": 1749062950.1228569
+    }
+  ],
+  "results": [
+    {
+      "test_id": 165,
+      "passed": false,
+      "timestamp": 1749062951.1289418,
+      "execution_time": 0.0002903938293457031,
+      "output": 20,
+      "details": {
+        "type": "function_test"
+      },
+      "failure_reason": "Output did not meet success criteria: output == value * 2"
+    }
+  ],
+  "timestamp": 1749062952.1450832,
   "cycle": 36
 }

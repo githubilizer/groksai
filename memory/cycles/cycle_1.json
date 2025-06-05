@@ -1,6 +1,48 @@
 {
-  "tests": [],
-  "results": [],
-  "timestamp": 1749049910.778095,
+  "tests": [
+    {
+      "name": "Fallback Performance Test",
+      "type": "performance",
+      "complexity": "beginner",
+      "description": "A basic test generated as fallback",
+      "inputs": {
+        "value": 10
+      },
+      "code": "def test_function(value):\n    return value * 2",
+      "success_criteria": "Result should be twice the input value",
+      "timeout_seconds": 30,
+      "generated_at": 1749062592.779896,
+      "generator_version": "1.0",
+      "is_fallback": true,
+      "id": 95,
+      "created": 1749062592.779987
+    }
+  ],
+  "results": [
+    {
+      "test_id": 95,
+      "passed": false,
+      "timestamp": 1749062593.7860734,
+      "execution_time": 0.00016355514526367188,
+      "output": {
+        "total_time": 9.298324584960938e-06,
+        "average_time": 9.298324584960938e-06,
+        "iterations": 1,
+        "results": [
+          {
+            "iteration": 0,
+            "time": 4.0531158447265625e-06,
+            "output": "20"
+          }
+        ]
+      },
+      "details": {
+        "average_time": 9.298324584960938e-06,
+        "total_time": 9.298324584960938e-06
+      },
+      "failure_reason": "Performance did not meet criteria: Result should be twice the input value"
+    }
+  ],
+  "timestamp": 1749062732.8666139,
   "cycle": 1
 }

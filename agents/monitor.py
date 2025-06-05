@@ -17,6 +17,10 @@ class Monitor(BaseAgent):
         self.alerts_raised = 0
         self.system_uptime = 0
         
+        # Health check metrics
+        self.health_checks = 0
+        self.health_alerts = 0
+        
         # Thresholds
         self.cpu_threshold = 90.0  # Alert if CPU usage is above 90%
         self.memory_threshold = 90.0  # Alert if memory usage is above 90%
