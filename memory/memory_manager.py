@@ -56,12 +56,15 @@ class MemoryManager:
         if os.path.exists(history_path):
             try:
                 with open(history_path, 'r') as f:
-                    return json.load(f)
+                    data = json.load(f)
+                    if "fixed_tests" not in data:
+                        data["fixed_tests"] = {}
+                    return data
             except Exception as e:
                 self.logger.error(f"Error loading test history: {e}")
-                return {"tests": [], "results": {}}
+                return {"tests": [], "results": {}, "fixed_tests": {}}
         else:
-            return {"tests": [], "results": {}}
+            return {"tests": [], "results": {}, "fixed_tests": {}}
     
     def log_agent_action(self, action_log):
         """Log an agent action"""
@@ -132,13 +135,38 @@ class MemoryManager:
         result["timestamp"] = time.time()
         self.test_history["results"][str(test_id)].append(result)
         self._save_test_history()
-        
+
         return True
+
+    def update_test(self, test_id, updates):
+        """Update an existing test entry with new data"""
+        try:
+            if test_id < len(self.test_history["tests"]):
+                self.test_history["tests"][test_id].update(updates)
+                self._save_test_history()
+                return True
+        except Exception as e:
+            self.logger.error(f"Error updating test {test_id}: {e}")
+        return False
+
+    def record_fixed_test(self, old_id, new_id):
+        """Record that a test has been replaced by a fixed version"""
+        try:
+            if "fixed_tests" not in self.test_history:
+                self.test_history["fixed_tests"] = {}
+            self.test_history["fixed_tests"][str(old_id)] = new_id
+            self._save_test_history()
+            return True
+        except Exception as e:
+            self.logger.error(f"Error recording fixed test mapping: {e}")
+        return False
     
     def _save_test_history(self):
         """Save the test history to disk"""
         history_path = os.path.join(self.memory_dir, "tests", "test_history.json")
         try:
+            if "fixed_tests" not in self.test_history:
+                self.test_history["fixed_tests"] = {}
             with open(history_path, 'w') as f:
                 json.dump(self.test_history, f, indent=2)
             self.logger.debug("Saved test history")

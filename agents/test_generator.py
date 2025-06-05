@@ -16,6 +16,7 @@ class TestGenerator(BaseAgent):
         # Track performance for adaptive complexity
         self.success_rate = 0.5  # Initial 50% success rate assumption
         self.tests_generated = 0
+        self.learned_patterns = {}
         
     def initialize(self):
         """Initialize the test generator"""
@@ -27,6 +28,10 @@ class TestGenerator(BaseAgent):
             self.current_complexity = test_history.get("current_complexity", "beginner")
             self.success_rate = test_history.get("success_rate", 0.5)
             self.tests_generated = test_history.get("tests_generated", 0)
+
+        learning_stats = self.memory.get_knowledge("learning_stats")
+        if learning_stats:
+            self.learned_patterns = learning_stats.get("patterns", {})
             
         self.logger.info(f"Test generator initialized at complexity level: {self.current_complexity}")
         return True
@@ -119,6 +124,9 @@ class TestGenerator(BaseAgent):
         
         Recent test results:
         {json.dumps(previous_results, indent=2)}
+
+        Learned patterns to guide generation:
+        {json.dumps(self.learned_patterns, indent=2)}
         
         Return ONLY a JSON object with these fields:
         {{
@@ -242,14 +250,14 @@ class TestGenerator(BaseAgent):
         """Adapt the complexity level based on success rate"""
         current_index = self.complexity_levels.index(self.current_complexity)
         
-        # If success rate is high, increase complexity
-        if self.success_rate > 0.8 and current_index < len(self.complexity_levels) - 1:
+        # If success rate is high, increase complexity (more conservative)
+        if self.success_rate > 0.9 and current_index < len(self.complexity_levels) - 1:
             self.current_complexity = self.complexity_levels[current_index + 1]
             self.logger.info(f"Increased complexity to {self.current_complexity} (success rate: {self.success_rate:.2f})")
             self.log_action("increase_complexity", {"new_level": self.current_complexity, "success_rate": self.success_rate})
         
         # If success rate is low, decrease complexity
-        elif self.success_rate < 0.3 and current_index > 0:
+        elif self.success_rate < 0.5 and current_index > 0:
             self.current_complexity = self.complexity_levels[current_index - 1]
             self.logger.info(f"Decreased complexity to {self.current_complexity} (success rate: {self.success_rate:.2f})")
             self.log_action("decrease_complexity", {"new_level": self.current_complexity, "success_rate": self.success_rate})

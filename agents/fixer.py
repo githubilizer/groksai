@@ -863,9 +863,11 @@ class Fixer(BaseAgent):
                     "applied_at": time.time()
                 }
                 
-                # Save the fixed test
+                # Save the fixed test and record mapping
                 new_test_id = self.memory.save_test(fixed_test)
                 fix_result["new_test_id"] = new_test_id
+                self.memory.update_test(test_id, {"replaced_by": new_test_id, "fixed": True})
+                self.memory.record_fixed_test(test_id, new_test_id)
                 self.logger.info(f"Forced success for fallback fix of test {test_id}, new test id: {new_test_id}")
                 
                 return fix_result
@@ -982,9 +984,11 @@ class Fixer(BaseAgent):
                     }
                     
                     if success:
-                        # If successful, save the fixed test
+                        # If successful, save the fixed test and mark original as fixed
                         new_test_id = self.memory.save_test(fixed_test)
                         fix_result["new_test_id"] = new_test_id
+                        self.memory.update_test(test_id, {"replaced_by": new_test_id, "fixed": True})
+                        self.memory.record_fixed_test(test_id, new_test_id)
                         self.logger.info(f"Successfully fixed test {test_id}, new test id: {new_test_id}")
                         
                         # If this was a fallback fix, log the success specially
